@@ -1,0 +1,805 @@
+/* Share the planner's live background palette and transparency controls. */
+:root {
+  --automation-panel: linear-gradient(145deg, rgb(var(--frame-top,25 32 25) / var(--frame-opacity,.8)), rgb(var(--frame-bottom,16 23 25) / var(--frame-opacity,.8)) 75%);
+  --automation-field: linear-gradient(145deg, rgb(var(--frame-field,14 21 23) / var(--frame-opacity,.8)), rgb(var(--frame-bottom,16 23 25) / var(--frame-opacity,.8)));
+  --automation-border: rgb(var(--frame-border,48 59 60) / .85);
+  --automation-selected: linear-gradient(145deg, rgb(201 180 126 / calc(var(--frame-opacity,.8) * var(--relic-tint-strength,1) * .28)), rgb(201 180 126 / calc(var(--frame-opacity,.8) * var(--relic-tint-strength,1) * .10))), var(--automation-field);
+}
+.target-panel,
+:is(#target-settings,#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog,#filter-auto-dialog,#save-manager-dialog,#reroll-plan-dialog,#ocr-dialog,#preset-import-dialog) {
+  background: var(--automation-panel);
+  border-color: var(--automation-border);
+}
+:is(#target-settings,#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog,#filter-auto-dialog,#save-manager-dialog,#reroll-plan-dialog,#ocr-dialog,#preset-import-dialog) :is(.target-patterns,.target-effect-slot,.target-option,.target-values,.reroll-live-settings,input,select,button:not(.primary):not(.effect-remove)) {
+  background: var(--automation-field);
+  border-color: var(--automation-border);
+}
+#target-settings .target-values label span {
+  background: var(--automation-field);
+  border-color: var(--automation-border);
+}
+#target-settings .target-values input:checked+span,
+#target-settings .target-values button[aria-pressed=true],
+#target-settings #target-pattern-tabs [aria-selected=true],
+#target-effect-dialog #target-categories [aria-pressed=true],
+:is(#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog) .target-option:has(input:checked),
+#reroll-plan-dialog .reroll-pattern-chips button[aria-pressed=true],
+.reroll-pattern-chips button[aria-pressed=true] {
+  background: var(--automation-selected);
+  border-color: var(--gold);
+  box-shadow: inset 0 0 0 1px var(--gold), inset 0 0 12px rgb(201 184 120 / .18);
+  color: var(--gold);
+  font-weight: 600;
+}
+#target-settings .target-actions,
+#target-effect-dialog .target-actions {
+  background: var(--automation-panel);
+  border-color: var(--automation-border);
+}
+#target-settings .target-effect-slot:hover,
+#target-settings .target-effect-slot:focus-visible {
+  background: var(--automation-selected);
+  border-color: var(--gold);
+}
+/* Keep the large container distinct even against a dark or empty background. */
+:is(#target-settings,#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog,#filter-auto-dialog,#save-manager-dialog,#reroll-plan-dialog,#ocr-dialog,#preset-import-dialog){border:2px solid color-mix(in srgb,rgb(var(--frame-border,48 59 60)),var(--gold) 55%);box-shadow:0 0 0 1px rgb(255 245 210 / .14),0 18px 70px rgb(0 0 0 / .8),inset 0 1px 0 rgb(255 245 210 / .10)}
+:is(#target-settings,#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog,#preset-import-dialog)::backdrop{background:rgb(0 0 0 / .68);backdrop-filter:blur(4px)}
+.target-panel{border:2px solid color-mix(in srgb,rgb(var(--frame-border,48 59 60)),var(--gold) 32%);box-shadow:0 8px 30px rgb(0 0 0 / .35)}
+:is(#target-settings,#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog,#filter-auto-dialog,#save-manager-dialog,#reroll-plan-dialog,#ocr-dialog,#preset-import-dialog) select{color:#fff;color-scheme:dark}
+:is(#target-settings,#target-effect-dialog,#target-wanted-penalty-dialog,#target-penalty-dialog,#filter-auto-dialog,#save-manager-dialog,#reroll-plan-dialog,#ocr-dialog,#preset-import-dialog) select option{background-color:rgb(var(--frame-field,14 21 23));color:#fff}
+#candidate-scan-dialog{width:min(900px,calc(100% - 32px));max-height:90vh;overflow:auto;background:var(--automation-panel);border:2px solid color-mix(in srgb,rgb(var(--frame-border,48 59 60)),var(--gold) 55%);box-shadow:0 18px 70px #000c}#candidate-scan-dialog select,#candidate-scan-dialog button:not(.primary){background:var(--automation-field)}#candidate-scan-dialog::backdrop{background:#000a;backdrop-filter:blur(4px)}#candidate-scan-log{max-height:250px;overflow:auto;white-space:pre-wrap}#candidate-scan-status{overflow-wrap:anywhere;color:var(--gold);line-height:1.8}
+#candidate-scan-dialog select option{background-color:rgb(var(--frame-field,14 21 23));color:#fff}
+/* Keep the automation workspace readable on wide displays. */
+#automation-pane{width:100%;max-width:1040px;margin-inline:auto}
+#automation-pane #reroll-plan-dialog{border:0;box-shadow:none;background:none}
+#automation-pane .target-panel,#automation-pane .reroll-pattern-overview,#automation-pane .reroll-setup,#automation-pane .reroll-action-bar,#automation-pane .reroll-advanced,#automation-pane .reroll-log-details,#automation-pane .automation-tools{border:1px solid rgb(var(--frame-border,48 59 60) / .48);box-shadow:none}
+#automation-pane .reroll-dashboard{border:0}
+#automation-pane .reroll-action-bar{box-shadow:0 6px 18px rgb(0 0 0 / .18)}
+#automation-pane .reroll-advanced,#automation-pane .reroll-log-details{padding:12px 18px}
+#automation-pane .reroll-setup>.save-shop-label{max-width:620px}
+#automation-pane .reroll-window-row{max-width:620px}
+#automation-pane .reroll-window-row label[hidden]{display:none}
+#automation-pane .reroll-buttons{gap:10px}
+#automation-pane .reroll-buttons #reroll-stop{margin-left:8px!important}
+#automation-pane #reroll-plan-status{color:var(--muted)}
+/* Joined utility section and restored frame contrast. */
+#automation-pane .target-panel,#automation-pane .reroll-pattern-overview,#automation-pane .reroll-setup,#automation-pane .automation-utility-group{border:2px solid color-mix(in srgb,rgb(var(--frame-border,48 59 60)),var(--gold) 32%);box-shadow:0 8px 30px rgb(0 0 0 / .35)}
+#automation-pane .reroll-dashboard{border:0;box-shadow:none}
+#automation-pane .reroll-action-bar{border:1px solid var(--gold);box-shadow:0 8px 24px #0005}
+#automation-pane .automation-utility-group{border-radius:10px;overflow:hidden;background:var(--automation-panel)}
+#automation-pane .automation-utility-group>details{margin:0;border:0;border-radius:0;box-shadow:none;background:none;padding:14px 18px}
+#automation-pane .automation-utility-group>details+details{border-top:1px solid var(--automation-border)}
+#automation-pane .automation-quick-settings .target-panel{justify-content:center;gap:24px}
+#automation-pane .automation-quick-settings .target-panel>div{flex:0 1 auto}
+@media(max-width:620px){#automation-pane .automation-quick-settings .target-panel{flex-direction:row;flex-wrap:wrap;gap:12px}#automation-pane .automation-quick-settings .target-panel>button{align-self:center}}
+/* Match the planner's main containers to the automation frame treatment. */
+#planner-pane .form-row,#planner-pane .relic-card,#planner-pane .reroll-pattern-overview,#planner-pane #target-settings{border:2px solid color-mix(in srgb,rgb(var(--frame-border,48 59 60)),var(--gold) 32%);box-shadow:0 8px 30px rgb(0 0 0 / .35)}
+#planner-pane #target-settings{width:100%;max-height:none;overflow:visible;margin:22px 0 18px;padding:22px 24px;border-radius:8px}
+#planner-pane #target-settings .dialog-head h2{margin:0;font:500 24px/1.35 "Yu Mincho","Hiragino Mincho ProN",serif;letter-spacing:1px;color:#f0ece0}
+#planner-pane #target-settings .target-actions{position:static;background:transparent;padding:12px 0 0}
+
+/* Compact automation layout, drag-and-drop pattern chips, and match counter badge. */
+.intro[hidden],.automation-quick-settings[hidden],.app-tabs[hidden]{display:none!important}
+.app-tabs{margin:0 0 14px;padding:0 0 8px}
+.app-tabs [role=tab]{padding:8px 20px;font-size:14px}
+#automation-pane{width:100%;max-width:none;margin:18px 0 24px}
+#automation-pane .automation-section-head{margin-bottom:12px}
+#automation-pane .automation-section-head h2{margin:0;font:500 24px/1.35 "Yu Mincho","Hiragino Mincho ProN",serif;letter-spacing:1px;color:#f0ece0}
+#automation-pane .reroll-controls{gap:12px}
+.reroll-pattern-overview,#automation-pane .reroll-setup,#automation-pane .reroll-action-bar{padding:18px 22px;margin-bottom:0}
+#automation-pane .reroll-setup .reroll-pattern-overview{margin:10px 0 16px;padding:16px 18px;border:1px solid var(--automation-border);border-radius:8px;background:var(--automation-field);box-shadow:none}
+.reroll-pattern-overview h3{font-size:16.5px;margin:0 0 12px}
+.reroll-pattern-overview h3 small{font-size:13.5px}
+.reroll-pattern-overview summary{font-size:15px;font-weight:600}
+.reroll-pattern-overview .pattern-heading-actions button{min-width:34px;min-height:34px;padding:2px 10px;font-size:16px}
+.reroll-pattern-overview .reroll-pattern-chips{gap:8px;margin-bottom:12px}
+.reroll-pattern-overview .reroll-pattern-chips button{min-height:38px;padding:6px 15px;font-size:15px;gap:8px}
+.reroll-pattern-overview .reroll-pattern-chips button[aria-pressed="false"]{opacity:.62}
+.reroll-pattern-overview .reroll-pattern-chips button[aria-pressed="true"] small{color:var(--gold);font-weight:700}
+.reroll-pattern-chips button[draggable="true"],#target-pattern-tabs button[draggable="true"]{cursor:grab;user-select:none}
+.reroll-pattern-chips button[draggable="true"]:active,#target-pattern-tabs button[draggable="true"]:active{cursor:grabbing}
+.reroll-pattern-chips button.is-dragging,#target-pattern-tabs button.is-dragging{opacity:.4}
+.reroll-pattern-chips button.is-drop-target,#target-pattern-tabs button.is-drop-target{outline:2px dashed var(--gold);outline-offset:2px}
+.reroll-setup-row{display:flex;flex-wrap:wrap;align-items:end;gap:12px 16px}
+.reroll-setup-row>.save-shop-label{margin:0;gap:6px;font-size:14px;color:var(--muted)}
+.reroll-setup-row>.save-shop-label:first-child{flex:1 1 220px;max-width:320px}
+.reroll-setup-row select,.reroll-setup-row input,.reroll-setup-row button{min-height:38px;padding:6px 12px;font-size:14.5px}
+.reroll-setup-row .reroll-window-options{display:flex;align-items:center;gap:10px;margin:0;flex:1 1 auto}
+.reroll-setup-row #reroll-window-status{margin:0;font-size:13.5px;white-space:nowrap}
+.reroll-setup-row .reroll-window-row{margin:0;align-items:end;gap:8px}
+.reroll-setup-row .reroll-window-row .save-shop-label{margin:0;gap:6px;font-size:14px}
+.reroll-setup-row .reroll-window-row button,.reroll-setup-row>#save-manager-open{margin:0;min-height:38px;padding:6px 12px;font-size:14px}
+.reroll-setup-row>#save-manager-open{margin-left:auto}
+#automation-pane .reroll-buttons{align-items:center;gap:8px}
+#automation-pane .reroll-buttons button{min-height:38px;padding:7px 16px;font-size:14.5px}
+.reroll-target-matches-label{display:inline-flex;align-items:center;gap:6px;margin:0 0 0 auto;font-size:14px;color:var(--muted);white-space:nowrap}
+.reroll-target-matches-label input{width:4rem;min-height:36px;padding:4px 8px;font-size:14.5px}
+.reroll-match-badge{display:inline-flex;align-items:center;min-height:36px;padding:4px 12px;border-radius:6px;border:1px solid var(--automation-border);background:var(--automation-field);color:var(--muted);font-size:14px}
+.reroll-match-badge.is-hit{border-color:var(--gold);background:var(--automation-selected);color:var(--gold);font-weight:600}
+.reroll-match-list[hidden]{display:none!important}
+.reroll-match-list{margin:8px 0 0;padding:8px 12px;list-style:none;border-radius:6px;border:1px solid color-mix(in srgb,var(--automation-border),var(--gold) 45%);background:var(--automation-selected);display:grid;gap:4px;max-height:120px;overflow:auto;font-size:13.5px;line-height:1.5;color:var(--text)}
+.reroll-match-list li{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+.reroll-match-list li strong{color:var(--gold);font-weight:600}
+#automation-pane .reroll-buttons #reroll-stop{margin-left:0!important}
+#automation-pane .reroll-action-bar #reroll-plan-status{margin:6px 0 0;font-size:14px;line-height:1.5}
+#automation-pane .automation-utility-group>details{padding:10px 16px;font-size:14.5px}
+#target-settings{padding:18px 22px}
+#target-settings .target-patterns{margin:10px 0;padding:12px 14px}
+#target-settings .target-selects{margin:10px 0;gap:12px;flex-wrap:wrap}
+#target-settings .target-values{padding:10px 12px}
+#target-settings #target-groups{gap:8px}
+#target-settings .target-effect-slot{min-height:50px;padding:10px 16px}
+#target-settings .target-penalty-row{margin-top:8px}
+
+/* Unified 2-column compact Auto Reroll layout for Full HD (1920x1080) with original font sizes and high-contrast text */
+@media(min-width:1200px){
+  main{max-width:1880px;padding:18px 16px 0}
+}
+#planner-pane #automation-pane{
+  width:100%;
+  max-width:none;
+  margin:14px 0 18px;
+  padding:10px 14px 12px;
+  border:2px solid color-mix(in srgb,rgb(var(--frame-border,48 59 60)),var(--gold) 35%);
+  border-radius:10px;
+  background:var(--automation-panel);
+  box-shadow:0 8px 30px rgb(0 0 0 / .38);
+  color:#f2f5f4;
+}
+#automation-pane>.automation-section-head{
+  margin:0 0 8px;
+  padding:0 2px 6px;
+  border-bottom:1px solid rgb(var(--frame-border,48 59 60) / .55);
+  align-items:center;
+}
+#automation-pane>.automation-section-head>div{
+  display:flex;
+  align-items:baseline;
+  gap:12px;
+}
+#automation-pane>.automation-section-head .eyebrow{
+  margin:0;
+  font-size:11px;
+  color:var(--gold);
+  font-weight:600;
+}
+#automation-pane>.automation-section-head h2{
+  margin:0;
+  font:600 23px/1.2 "Yu Mincho","Hiragino Mincho ProN",serif;
+  letter-spacing:1px;
+  color:#f6f3e8;
+}
+.automation-split-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:12px;
+  align-items:start;
+}
+.automation-col-left,.automation-col-right{
+  min-width:0;
+}
+
+/* High-contrast text across all labels, buttons, and disabled states in automation-pane */
+#automation-pane button,
+#automation-pane input,
+#automation-pane select{
+  color:#f2f5f4;
+}
+#automation-pane button.primary{
+  color:#171d1b;
+  font-weight:700;
+}
+#automation-pane button:disabled{
+  opacity:.88;
+  color:#dfe5e4;
+}
+#automation-pane button.primary:disabled{
+  opacity:.9;
+  background:#b8a36e;
+  border-color:#b8a36e;
+  color:#171d1b;
+}
+#automation-pane #target-save:disabled{
+  opacity:.42;
+  background:#202a2c;
+  border-color:#455350;
+  color:#9aa7a5;
+  cursor:not-allowed;
+}
+#automation-pane #reroll-stop,
+#automation-pane #reroll-stop:disabled{
+  opacity:.92;
+  color:#f5beb6;
+  border-color:#c97c72;
+}
+
+/* Left column: Target Relic conditions (original font sizes, compact spacing, no bottom odds) */
+#automation-pane #target-settings{
+  width:100%;
+  max-height:none;
+  overflow:visible;
+  margin:0;
+  padding:10px 12px;
+  border:1px solid var(--automation-border);
+  border-radius:8px;
+  background:rgb(var(--frame-bottom,16 23 25) / .28);
+  box-shadow:none;
+}
+#automation-pane #target-settings>.dialog-head{
+  display:none;
+}
+#automation-pane #target-settings #target-pattern-odds{
+  display:none!important;
+}
+#automation-pane #target-settings .target-patterns{
+  margin:0 0 8px;
+  padding:8px 10px;
+}
+#automation-pane #target-settings #target-pattern-tabs{
+  gap:6px;
+  padding:0 0 7px;
+}
+#automation-pane #target-settings #target-pattern-tabs button{
+  padding:6px 12px;
+  font-size:14.5px;
+  min-height:34px;
+  color:#eef2f0;
+  opacity:1;
+}
+#automation-pane #target-settings .target-pattern-tools{
+  gap:6px;
+}
+#automation-pane #target-settings .target-pattern-tools label{
+  font-size:14px;
+  font-weight:600;
+  color:#eef2f0;
+  gap:6px;
+  min-width:130px;
+}
+#automation-pane #target-settings .target-pattern-tools input{
+  padding:5px 10px;
+  font-size:14.5px;
+  min-height:34px;
+}
+#automation-pane #target-settings .target-pattern-tools button{
+  padding:5px 11px;
+  font-size:14px;
+  min-height:34px;
+}
+#automation-pane #target-settings #target-status:empty{
+  display:none;
+}
+#automation-pane #target-settings #target-status{
+  margin:4px 0 0;
+  font-size:13.5px;
+}
+#automation-pane #target-settings .target-selects{
+  margin:0 0 8px;
+  gap:6px;
+  flex-wrap:wrap;
+}
+#automation-pane #target-settings .target-values{
+  padding:4px 6px 6px;
+  gap:4px;
+  min-width:0;
+  flex-wrap:nowrap;
+}
+#automation-pane #target-settings .target-values legend{
+  font-size:14px;
+  font-weight:600;
+  color:#f2f5f4;
+  padding:0 3px;
+  white-space:nowrap;
+}
+#automation-pane #target-settings .target-values legend small{
+  display:none;
+}
+#automation-pane #target-settings .target-values label span,
+#automation-pane #target-settings .target-values button{
+  padding:5px 7px;
+  font-size:13.5px;
+  min-height:31px;
+  white-space:nowrap;
+  color:#f0f3f2;
+}
+#automation-pane #target-settings .target-values [data-color]:not([data-color=""])::before{
+  width:9px;
+  height:9px;
+  margin-right:4px;
+}
+#automation-pane #target-settings #target-groups{
+  gap:6px;
+}
+#automation-pane #target-settings .target-wanted-penalty-row,
+#automation-pane #target-settings .target-penalty-row{
+  margin-top:6px;
+}
+#automation-pane #target-settings .target-slot-row{
+  gap:6px;
+}
+#automation-pane #target-settings .target-effect-slot{
+  min-height:42px;
+  padding:6px 12px;
+  gap:10px;
+}
+#automation-pane #target-settings .target-slot-number{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:14.5px;
+  font-weight:600;
+  color:#e8eeec;
+  width:116px;
+  flex:0 0 116px;
+}
+#automation-pane #target-settings .target-slot-copy{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:25px;
+  height:25px;
+  border-radius:4px;
+  border:1px solid #56635e;
+  background:#152122;
+  color:#d8c690;
+  cursor:grab;
+  touch-action:none;
+  user-select:none;
+  transition:background .15s,border-color .15s,color .15s,transform .1s;
+}
+#automation-pane #target-settings .target-slot-copy:hover{
+  border-color:var(--gold);
+  background:#2d3023;
+  color:#f5e6b5;
+}
+#automation-pane #target-settings .target-slot-copy[aria-disabled="true"]{
+  opacity:.35;
+  cursor:default;
+  color:#8d9996;
+  border-color:#3a4643;
+}
+#automation-pane #target-settings .target-effect-slot.is-copy-drag-source{
+  opacity:.45;
+}
+#automation-pane #target-settings .target-effect-slot.is-copy-drop-target{
+  border-color:var(--gold)!important;
+  background:#333020!important;
+  box-shadow:0 0 0 2px rgba(201,180,126,0.45);
+}
+.target-slot-drag-ghost{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:6px 12px;
+  border:1px solid var(--gold);
+  border-radius:6px;
+  background:#182324;
+  color:#f2f5f4;
+  box-shadow:0 10px 24px rgba(0,0,0,0.65);
+}
+#automation-pane #target-settings .target-wanted-penalty-slot .target-slot-number{
+  color:#b6e6c2;
+}
+#automation-pane #target-settings .target-penalty-slot .target-slot-number{
+  color:#f0bfb4;
+}
+#automation-pane #target-settings .target-slot-value{
+  font-size:15px;
+  line-height:1.45;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:5px;
+  color:#f2f5f4;
+}
+#automation-pane #target-settings .target-slot-value.is-empty{
+  color:#c2cecc;
+}
+#automation-pane #target-settings .target-effect-tag{
+  padding:3px 9px;
+  font-size:14.5px;
+  gap:6px;
+  margin:0;
+  color:#f4f7f6;
+}
+#automation-pane #target-settings .target-effect-odds{
+  font-size:13px;
+  padding:2px 7px;
+}
+#automation-pane #target-settings .target-penalty-tag,
+#automation-pane #target-settings .target-wanted-penalty-tag{
+  padding:2px 9px;
+  font-size:14px;
+  margin:0;
+}
+#automation-pane #target-settings .target-slot-edit{
+  font-size:14px;
+  font-weight:600;
+}
+#automation-pane #target-settings .target-slot-row .target-slot-reset.effect-remove{
+  width:30px;
+  height:30px;
+  flex-basis:30px;
+  font-size:20px;
+  color:#d8e2e0;
+}
+#automation-pane #target-settings .target-actions:not(:has(button:not([hidden]))){
+  display:none;
+}
+
+/* Right column: Auto Reroll overview, setup, and actions (original font sizes, high contrast) */
+#automation-pane .reroll-controls{
+  gap:14px;
+}
+#automation-pane .reroll-setup{
+  padding:16px 18px;
+  border:1px solid var(--automation-border);
+  border-radius:8px;
+  box-shadow:none;
+}
+#automation-pane .reroll-setup .reroll-pattern-overview{
+  margin:0 0 14px;
+  padding:12px 14px;
+}
+#automation-pane .reroll-pattern-overview h3{
+  font-size:16px;
+  color:#f4f7f6;
+  margin:0 0 7px;
+}
+#automation-pane .reroll-pattern-overview h3 small{
+  font-size:13px;
+  color:#d6e0de;
+  margin-left:6px;
+}
+#automation-pane .reroll-pattern-overview .pattern-heading-actions button{
+  min-width:30px;
+  min-height:30px;
+  padding:2px 8px;
+  font-size:15px;
+  color:#f2f5f4;
+}
+#automation-pane .reroll-pattern-overview .reroll-pattern-chips{
+  gap:6px;
+  margin-bottom:7px;
+}
+#automation-pane .reroll-pattern-overview .reroll-pattern-chips button{
+  min-height:34px;
+  padding:5px 13px;
+  font-size:14.5px;
+  gap:6px;
+  color:#eef2f0;
+  opacity:1;
+}
+#automation-pane .reroll-pattern-overview .reroll-pattern-chips button[aria-pressed="false"]{
+  opacity:.88;
+  color:#dce4e2;
+}
+#automation-pane .reroll-pattern-overview summary{
+  font-size:14.5px;
+  font-weight:600;
+  padding:2px 0;
+}
+#automation-pane .reroll-filter-preview{
+  font-size:14.5px;
+  margin-top:5px;
+}
+#automation-pane .reroll-filter-props{
+  margin:0 0 5px;
+  font-size:14px;
+  font-weight:500;
+  color:#e4ecea;
+}
+#automation-pane .reroll-filter-group{
+  grid-template-columns:86px 1fr;
+  gap:10px;
+  padding:5px 0;
+}
+#automation-pane .reroll-filter-group>span{
+  font-size:14.5px;
+  font-weight:600;
+}
+#automation-pane .reroll-filter-group p{
+  margin:0;
+  color:#dce4e2;
+}
+#automation-pane .reroll-filter-group-items{
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:4px 12px;
+  align-items:center;
+}
+#automation-pane .reroll-filter-item-row{
+  gap:8px;
+}
+#automation-pane .reroll-filter-item-name{
+  font-size:14.5px;
+  color:#f4f7f6;
+}
+#automation-pane .reroll-effect-odds{
+  font-size:13px;
+  padding:2px 7px;
+}
+#automation-pane .reroll-penalty-chips{
+  gap:5px;
+}
+#automation-pane .reroll-penalty-chip,
+#automation-pane .reroll-wanted-penalty-chip{
+  padding:2px 9px;
+  font-size:13.5px;
+}
+#automation-pane .reroll-odds-summary{
+  margin-top:7px;
+  padding:9px 13px;
+  border-radius:7px;
+}
+#automation-pane .reroll-odds-headline-grid{
+  gap:8px 12px;
+}
+#automation-pane .reroll-odds-headline{
+  gap:10px;
+}
+#automation-pane .reroll-odds-badge{
+  font-size:15.5px;
+}
+#automation-pane .reroll-odds-value{
+  font-size:21px;
+}
+#automation-pane .reroll-odds-8h-box{
+  padding:5px 12px;
+  gap:8px;
+}
+#automation-pane .reroll-odds-8h-label,
+#automation-pane .reroll-odds-8h-hit-label{
+  font-size:15px;
+  font-weight:600;
+  color:#bae8c6;
+  gap:6px;
+}
+#automation-pane .reroll-odds-8h-sep{
+  color:#83b891;
+  font-weight:700;
+  margin:0 2px;
+}
+#automation-pane .reroll-odds-hours-input{
+  width:4.4rem;
+  min-height:28px;
+  padding:3px 6px!important;
+  font-size:16px!important;
+}
+#automation-pane .reroll-odds-8h-value{
+  font-size:20px;
+}
+#automation-pane .reroll-setup-rows{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+#automation-pane .reroll-setup-row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px 16px;
+  padding-top:12px;
+  border-top:1px solid rgb(var(--frame-border,48 59 60) / .45);
+}
+#automation-pane .reroll-setup-row:first-child{
+  padding-top:2px;
+  border-top:0;
+}
+#automation-pane .reroll-setup-row>#save-manager-open{
+  margin-left:0;
+}
+#automation-pane .reroll-setup-row>.save-shop-label{
+  display:inline-flex;
+  flex-direction:row;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  font-weight:600;
+  color:#eef2f0;
+  flex:0 1 auto;
+  max-width:none;
+}
+#automation-pane .reroll-sound-row-label{
+  width:100%;
+  flex-wrap:wrap;
+}
+#automation-pane .reroll-sound-controls{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+#automation-pane .reroll-volume-wrap{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-left:4px;
+  padding:4px 10px;
+  border-radius:6px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgb(var(--frame-border,48 59 60) / .55);
+}
+#automation-pane .reroll-volume-caption{
+  font-size:13px;
+  color:#cfd9d7;
+  font-weight:600;
+}
+#automation-pane .reroll-setup-row select,
+#automation-pane .reroll-setup-row input:not([type="range"]),
+#automation-pane .reroll-setup-row button{
+  min-height:36px;
+  padding:5px 12px;
+  font-size:14px;
+  color:#f2f5f4;
+}
+#automation-pane .reroll-setup-row .reroll-window-options{
+  margin-left:auto;
+  flex:0 1 auto;
+  gap:10px;
+}
+#automation-pane .reroll-setup-row #reroll-window-status{
+  font-size:14px;
+  font-weight:600;
+  color:#eef2f0;
+}
+#automation-pane .reroll-action-bar{
+  position:static;
+  padding:14px 18px;
+  border-radius:8px;
+  box-shadow:0 4px 14px #0004;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+#automation-pane .reroll-buttons{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px 12px;
+}
+#automation-pane .reroll-buttons-bottom{
+  padding-top:10px;
+  border-top:1px solid rgb(var(--frame-border,48 59 60) / .55);
+}
+#automation-pane .reroll-action-history-group{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+#automation-pane .reroll-action-history-label{
+  font-size:14.5px;
+  font-weight:600;
+  color:var(--gold);
+}
+#automation-pane .reroll-action-history-label small{
+  font-size:13.5px;
+  font-weight:600;
+  color:#e8eeec;
+}
+#automation-pane .reroll-buttons button{
+  min-height:35px;
+  padding:5px 14px;
+  font-size:14.5px;
+  font-weight:600;
+}
+#automation-pane .reroll-target-matches-label{
+  gap:6px;
+  font-size:14.5px;
+  font-weight:600;
+  color:#f2f5f4;
+  margin-left:6px;
+}
+#automation-pane .reroll-buttons #reroll-stop{
+  margin-left:0!important;
+}
+#automation-pane .reroll-target-matches-label input{
+  width:3.8rem;
+  min-height:34px;
+  padding:3px 7px;
+  font-size:14.5px;
+  font-weight:600;
+  color:#ffffff;
+}
+#automation-pane #reroll-match-count{
+  display:none!important;
+}
+#automation-pane .reroll-status-row{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+  margin-top:2px;
+  padding:4px 0;
+}
+#automation-pane .reroll-status-row:has(#reroll-plan-status:empty){
+  display:none;
+}
+#automation-pane .reroll-status-row[data-alert-level="error"]{
+  padding:8px 12px;
+  border-radius:6px;
+  background:rgba(210,60,50,0.16);
+  border:1px solid rgba(235,115,105,0.55);
+}
+#automation-pane .reroll-status-row[data-alert-level="warn"]{
+  padding:8px 12px;
+  border-radius:6px;
+  background:rgba(215,165,50,0.15);
+  border:1px solid rgba(235,190,85,0.5);
+}
+#automation-pane .reroll-action-bar #reroll-plan-status:empty{
+  display:none;
+}
+#automation-pane .reroll-action-bar #reroll-plan-status{
+  margin:0;
+  flex:1 1 auto;
+  min-width:0;
+  font-size:13.5px;
+  color:#eef2f0;
+  line-height:1.45;
+  overflow-wrap:anywhere;
+}
+#automation-pane .reroll-status-dismiss{
+  flex:0 0 26px;
+  width:26px;
+  height:26px;
+  min-height:26px!important;
+  padding:0!important;
+  font-size:16px!important;
+  line-height:1;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:5px;
+  border:1px solid rgba(255,255,255,0.24);
+  background:rgba(14,21,23,0.85);
+  color:#dce4e2;
+  cursor:pointer;
+}
+#automation-pane .reroll-status-dismiss:hover{
+  border-color:#e28073;
+  background:#42211e;
+  color:#fff;
+}
+#automation-pane .reroll-match-list{
+  margin:2px 0 0;
+  padding:6px 10px;
+  font-size:13.5px;
+  max-height:64px;
+}
+#automation-pane .automation-utility-group{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px 16px;
+  padding:6px 12px;
+  border:1px solid var(--automation-border);
+  border-radius:8px;
+  box-shadow:none;
+}
+#automation-pane .automation-utility-group>details[hidden]{
+  display:none!important;
+}
+#automation-pane .automation-utility-group>details{
+  flex:0 1 auto;
+  margin:0;
+  padding:2px 4px;
+  font-size:14px;
+  font-weight:600;
+  border:0!important;
+  border-radius:0;
+  background:none!important;
+  box-shadow:none!important;
+}
+#automation-pane .automation-utility-group>details[open]{
+  flex:1 1 100%;
+  padding:8px 4px;
+  border-top:1px solid var(--automation-border)!important;
+}
+@media(max-width:1180px){
+  .automation-split-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+
+

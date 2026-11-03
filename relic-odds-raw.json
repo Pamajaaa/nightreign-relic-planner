@@ -1,0 +1,3978 @@
+{
+  "物理攻撃力上昇＋３": {
+    "en": "Physical Attack Up +3",
+    "id": 6001400,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "物理攻撃力上昇＋４": {
+    "en": "Physical Attack Up +4",
+    "id": 6001401,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "魔力攻撃力上昇＋３": {
+    "en": "Magic Attack Power Up +3",
+    "id": 6001500,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "魔力攻撃力上昇＋４": {
+    "en": "Magic Attack Power Up +4",
+    "id": 6001501,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "炎攻撃力上昇＋３": {
+    "en": "Fire Attack Power Up +3",
+    "id": 6001600,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "炎攻撃力上昇＋４": {
+    "en": "Fire Attack Power Up +4",
+    "id": 6001601,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "雷攻撃力上昇＋３": {
+    "en": "Lightning Attack Power Up +3",
+    "id": 6001700,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "雷攻撃力上昇＋４": {
+    "en": "Lightning Attack Power Up +4",
+    "id": 6001701,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "聖攻撃力上昇＋３": {
+    "en": "Holy Attack Power Up +3",
+    "id": 6001800,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "聖攻撃力上昇＋４": {
+    "en": "Holy Attack Power Up +4",
+    "id": 6001801,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "魔力カット率上昇＋１": {
+    "en": "Improved Magic Damage Negation +1",
+    "id": 6002600,
+    "normalProb": 0,
+    "deepProb": 0.02699554292408762,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "魔力カット率上昇＋２": {
+    "en": "Improved Magic Damage Negation +2",
+    "id": 6002601,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339743,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "炎カット率上昇＋１": {
+    "en": "Improved Fire Damage Negation +1",
+    "id": 6002700,
+    "normalProb": 0,
+    "deepProb": 0.02699554292408762,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "炎カット率上昇＋２": {
+    "en": "Improved Fire Damage Negation +2",
+    "id": 6002701,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339743,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "雷カット率上昇＋１": {
+    "en": "Improved Lightning Damage Negation +1",
+    "id": 6002800,
+    "normalProb": 0,
+    "deepProb": 0.02699554292408762,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "雷カット率上昇＋２": {
+    "en": "Improved Lightning Damage Negation +2",
+    "id": 6002801,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339743,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "聖カット率上昇＋１": {
+    "en": "Improved Holy Damage Negation +1",
+    "id": 6002900,
+    "normalProb": 0,
+    "deepProb": 0.026995542924087623,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "聖カット率上昇＋２": {
+    "en": "Improved Holy Damage Negation +2",
+    "id": 6002901,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339743,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "毒耐性上昇＋１": {
+    "en": "Improved Poison Resistance +1",
+    "id": 6003000,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "出血耐性上昇＋１": {
+    "en": "Improved Blood Loss Resistance +1",
+    "id": 6003100,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "睡眠耐性上昇＋１": {
+    "en": "Improved Sleep Resistance +1",
+    "id": 6003200,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "抗死耐性上昇＋１": {
+    "en": "Improved Death Blight Resistance +1",
+    "id": 6003300,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219679,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "腐敗耐性上昇＋１": {
+    "en": "Improved Rot Resistance +1",
+    "id": 6003400,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219679,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "冷気耐性上昇＋１": {
+    "en": "Improved Frost Resistance +1",
+    "id": 6003500,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219679,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "発狂耐性上昇＋１": {
+    "en": "Improved Madness Resistance +1",
+    "id": 6003600,
+    "normalProb": 0,
+    "deepProb": 0.010593268822219679,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "ダメージを受けた直後、攻撃によりＨＰの一部を回復＋１": {
+    "en": "Partial HP Restoration upon Post-Damage Attacks +1",
+    "id": 6005600,
+    "normalProb": 0,
+    "deepProb": 0.026995542924087623,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "ダメージを受けた直後、攻撃によりＨＰの一部を回復＋２": {
+    "en": "Partial HP Restoration upon Post-Damage Attacks +2",
+    "id": 6005601,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339743,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "苔薬などのアイテム使用でＨＰ回復＋１": {
+    "en": "HP restored when using medicinal boluses, etc. +1",
+    "id": 6030200,
+    "normalProb": 0,
+    "deepProb": 0.00845709597238003,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "ガード成功時、アーツゲージ増加＋１": {
+    "en": "Successful guarding fills more of the Art gauge +1",
+    "id": 6030600,
+    "normalProb": 0,
+    "deepProb": 0.02713242587405366,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "致命の一撃で、アーツゲージ増加＋１": {
+    "en": "Critical hits fill more of the Art gauge +1",
+    "id": 6030800,
+    "normalProb": 0,
+    "deepProb": 0.02713242587405366,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "脂アイテム使用時、追加で物理攻撃力上昇＋１": {
+    "en": "Physical attack power increases after using grease items +1",
+    "id": 6030900,
+    "normalProb": 0,
+    "deepProb": 0.0209616342451537,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "脂アイテム使用時、追加で物理攻撃力上昇＋２": {
+    "en": "Physical attack power increases after using grease items +2",
+    "id": 6030901,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "致命の一撃で、スタミナ回復速度上昇＋１": {
+    "en": "Critical Hit Boosts Stamina Recovery Speed +1",
+    "id": 6035100,
+    "normalProb": 0,
+    "deepProb": 0.00845709597238003,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "ガードカウンター強化＋１": {
+    "en": "Improved Guard Counters +1",
+    "id": 6040100,
+    "normalProb": 0,
+    "deepProb": 0.0209616342451537,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "ガードカウンター強化＋２": {
+    "en": "Improved Guard Counters +2",
+    "id": 6040101,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "投擲壺の攻撃力上昇＋１": {
+    "en": "Improved Throwing Pot Damage +1",
+    "id": 6040300,
+    "normalProb": 0,
+    "deepProb": 0.004318280636225368,
+    "normalOneIn": null,
+    "deepOneIn": 232
+  },
+  "投擲ナイフの攻撃力上昇＋１": {
+    "en": "Improved Throwing Knife Damage +1",
+    "id": 6040400,
+    "normalProb": 0,
+    "deepProb": 0.004318280636225368,
+    "normalOneIn": null,
+    "deepOneIn": 232
+  },
+  "輝石、重力石アイテムの攻撃力上昇＋１": {
+    "en": "Improved Glintstone and Gravity Stone Damage +1",
+    "id": 6040500,
+    "normalProb": 0,
+    "deepProb": 0.004318280636225368,
+    "normalOneIn": null,
+    "deepOneIn": 232
+  },
+  "調香術強化＋１": {
+    "en": "Improved Perfuming Arts +1",
+    "id": 6043100,
+    "normalProb": 0,
+    "deepProb": 0.004318280636225368,
+    "normalOneIn": null,
+    "deepOneIn": 232
+  },
+  "大教会の強敵を倒す度、最大ＨＰ上昇": {
+    "en": "Max HP increased for each great enemy defeated at a Great Church.",
+    "id": 6060300,
+    "normalProb": 0,
+    "deepProb": 0.008482802049092198,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "小砦の強敵を倒す度、取得ルーン増加、発見力上昇": {
+    "en": "Runes and Item Discovery increased for each great enemy defeated at a Fort",
+    "id": 6060400,
+    "normalProb": 0,
+    "deepProb": 0.008482802049092198,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "遺跡の強敵を倒す度、神秘上昇": {
+    "en": "Arcane increased for each great enemy defeated at a Ruin",
+    "id": 6060500,
+    "normalProb": 0,
+    "deepProb": 0.008482802049092198,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "大野営地の強敵を倒す度、最大スタミナ上昇": {
+    "en": "Max stamina increased for each great enemy defeated at a Great Encampment",
+    "id": 6060600,
+    "normalProb": 0,
+    "deepProb": 0.008482802049092198,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "敵を倒した時、アーツゲージ増加＋１": {
+    "en": "Defeating enemies fills more of the Art gauge +1",
+    "id": 6090000,
+    "normalProb": 0,
+    "deepProb": 0.02713242587405366,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "刺突カウンター発生時、ＨＰ回復＋１": {
+    "en": "HP Restoration upon Thrusting Counterattack +1",
+    "id": 6160000,
+    "normalProb": 0,
+    "deepProb": 0.02713242587405366,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "毒状態の敵に対する攻撃を強化＋１": {
+    "en": "Attack power up when facing poison-afflicted enemy +1",
+    "id": 6260000,
+    "normalProb": 0,
+    "deepProb": 0.026547037788918048,
+    "normalOneIn": null,
+    "deepOneIn": 38
+  },
+  "毒状態の敵に対する攻撃を強化＋２": {
+    "en": "Attack power up when facing poison-afflicted enemy +2",
+    "id": 6260001,
+    "normalProb": 0,
+    "deepProb": 0.012829423466763367,
+    "normalOneIn": null,
+    "deepOneIn": 78
+  },
+  "腐敗状態の敵に対する攻撃を強化＋１": {
+    "en": "Attack power up when facing scarlet rot-afflicted enemy +1",
+    "id": 6260300,
+    "normalProb": 0,
+    "deepProb": 0.026547037788918048,
+    "normalOneIn": null,
+    "deepOneIn": 38
+  },
+  "腐敗状態の敵に対する攻撃を強化＋２": {
+    "en": "Attack power up when facing scarlet rot-afflicted enemy +2",
+    "id": 6260301,
+    "normalProb": 0,
+    "deepProb": 0.012829423466763367,
+    "normalOneIn": null,
+    "deepOneIn": 78
+  },
+  "凍傷状態の敵に対する攻撃を強化＋１": {
+    "en": "Attack power up when facing frostbite-afflicted enemy +1",
+    "id": 6260400,
+    "normalProb": 0,
+    "deepProb": 0.026995542924087623,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "凍傷状態の敵に対する攻撃を強化＋２": {
+    "en": "Attack power up when facing frostbite-afflicted enemy +2",
+    "id": 6260401,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339746,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "【追跡者】スキルに、出血の状態異常を付加": {
+    "en": "[Wylder] Character Skill inflicts Blood Loss",
+    "id": 6500000,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【守護者】スキル使用時、周囲の味方のカット率上昇": {
+    "en": "[Guardian] Character Skill Boosts Damage Negation of Nearby Allies",
+    "id": 6500100,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "[Ironeye] Character Skill Inflicts Heavy Poison Damage on Poisoned Enemies": {
+    "en": "[Ironeye] Character Skill Inflicts Heavy Poison Damage on Poisoned Enemies",
+    "id": 6500200,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【レディ】スキル使用時、僅かに無敵": {
+    "en": "[Duchess] Use Character Skill for Brief Invulnerability",
+    "id": 6500300,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【無頼漢】スキル命中時、敵の攻撃力低下": {
+    "en": "[Raider] Hit With Character Skill to Reduce Enemy Attack Power",
+    "id": 6500400,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【復讐者】アビリティ発動時、最大ＦＰ上昇": {
+    "en": "[Revenant] Increased Max FP upon Ability Activation",
+    "id": 6500500,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【隠者】属性痕を集めた時、対応する属性カット率上昇": {
+    "en": "[Recluse] Collect Affinity Residues to Negate Affinity",
+    "id": 6500600,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【執行者】アビリティ発動時、ＨＰをゆっくりと回復": {
+    "en": "[Executor] Slowly Restore HP upon Ability Activation",
+    "id": 6500700,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【学者】スキルを自身に使用時、ＦＰ消費軽減": {
+    "en": "[Scholar] Reduced FP consumption when using Character Skill on self",
+    "id": 6500800,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "【葬儀屋】アーツ発動後、スキル再使用可能": {
+    "en": "[Undertaker] Executing Art readies Character Skill",
+    "id": 6500900,
+    "normalProb": 0,
+    "deepProb": 0.020853499076055305,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "周囲で睡眠状態の発生時、攻撃力上昇": {
+    "en": "Sleep in Vicinity Improves Attack Power",
+    "id": 6600000,
+    "normalProb": 0,
+    "deepProb": 0.005991841363469672,
+    "normalOneIn": null,
+    "deepOneIn": 167
+  },
+  "周囲で睡眠状態の発生時、攻撃力上昇＋１": {
+    "en": "Sleep in Vicinity Improves Attack Power +1",
+    "id": 6600001,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "周囲で発狂状態の発生時、攻撃力上昇": {
+    "en": "Madness in Vicinity Improves Attack Power",
+    "id": 6600100,
+    "normalProb": 0,
+    "deepProb": 0.005991841363469672,
+    "normalOneIn": null,
+    "deepOneIn": 167
+  },
+  "周囲で発狂状態の発生時、攻撃力上昇＋１": {
+    "en": "Madness in Vicinity Improves Attack Power +1",
+    "id": 6600101,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "最大ＨＰ上昇": {
+    "en": "Increased Maximum HP",
+    "id": 6610400,
+    "normalProb": 0,
+    "deepProb": 0.01318081874624287,
+    "normalOneIn": null,
+    "deepOneIn": 76
+  },
+  "最大ＦＰ上昇": {
+    "en": "Increased Maximum FP",
+    "id": 6610500,
+    "normalProb": 0,
+    "deepProb": 0.013180818746242867,
+    "normalOneIn": null,
+    "deepOneIn": 76
+  },
+  "最大スタミナ上昇": {
+    "en": "Increased Maximum Stamina",
+    "id": 6610600,
+    "normalProb": 0,
+    "deepProb": 0.01318081874624287,
+    "normalOneIn": null,
+    "deepOneIn": 76
+  },
+  "消費ＦＰ軽減": {
+    "en": "Reduced FP Consumption",
+    "id": 6610700,
+    "normalProb": 0,
+    "deepProb": 0.010633882470362148,
+    "normalOneIn": null,
+    "deepOneIn": 94
+  },
+  "属性攻撃力上昇": {
+    "en": "Improved Affinity Attack Power",
+    "id": 6610800,
+    "normalProb": 0,
+    "deepProb": 0.007517037346898317,
+    "normalOneIn": null,
+    "deepOneIn": 133
+  },
+  "属性攻撃力上昇＋１": {
+    "en": "Improved Affinity Attack Power +1",
+    "id": 6610801,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "属性攻撃力上昇＋２": {
+    "en": "Improved Affinity Attack Power +2",
+    "id": 6610802,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "物理カット率上昇＋１": {
+    "en": "Improved Physical Damage Negation +1",
+    "id": 6611001,
+    "normalProb": 0,
+    "deepProb": 0.026995542924087627,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "物理カット率上昇＋２": {
+    "en": "Improved Physical Damage Negation +2",
+    "id": 6611002,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339744,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "属性カット率上昇": {
+    "en": "Improved Affinity Damage Negation",
+    "id": 6611100,
+    "normalProb": 0,
+    "deepProb": 0.01043614024621936,
+    "normalOneIn": null,
+    "deepOneIn": 96
+  },
+  "属性カット率上昇＋１": {
+    "en": "Improved Affinity Damage Negation +1",
+    "id": 6611101,
+    "normalProb": 0,
+    "deepProb": 0.02699554292408763,
+    "normalOneIn": null,
+    "deepOneIn": 37
+  },
+  "属性カット率上昇＋２": {
+    "en": "Improved Affinity Damage Negation +2",
+    "id": 6611102,
+    "normalProb": 0,
+    "deepProb": 0.013046173160339746,
+    "normalOneIn": null,
+    "deepOneIn": 77
+  },
+  "魔術強化": {
+    "en": "Improved Sorceries",
+    "id": 6611200,
+    "normalProb": 0,
+    "deepProb": 0.007517037346898317,
+    "normalOneIn": null,
+    "deepOneIn": 133
+  },
+  "魔術強化＋１": {
+    "en": "Improved Sorceries +1",
+    "id": 6611201,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "魔術強化＋２": {
+    "en": "Improved Sorceries +2",
+    "id": 6611202,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "祈祷強化": {
+    "en": "Improved Incantations",
+    "id": 6611300,
+    "normalProb": 0,
+    "deepProb": 0.007517037346898317,
+    "normalOneIn": null,
+    "deepOneIn": 133
+  },
+  "祈祷強化＋１": {
+    "en": "Improved Incantations +1",
+    "id": 6611301,
+    "normalProb": 0,
+    "deepProb": 0.020961634245153703,
+    "normalOneIn": null,
+    "deepOneIn": 48
+  },
+  "祈祷強化＋２": {
+    "en": "Improved Incantations +2",
+    "id": 6611302,
+    "normalProb": 0,
+    "deepProb": 0.010130157813643051,
+    "normalOneIn": null,
+    "deepOneIn": 99
+  },
+  "聖杯瓶の回復量上昇": {
+    "en": "Improved Flask HP Restoration",
+    "id": 6611400,
+    "normalProb": 0,
+    "deepProb": 0.0084828020490922,
+    "normalOneIn": null,
+    "deepOneIn": 118
+  },
+  "出撃時に「緋溢れの結晶雫」を持つ": {
+    "en": "Crimsonspill Crystal Tear in possession at start of expedition",
+    "id": 6621000,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「緋色の結晶雫」を持つ": {
+    "en": "Crimson Crystal Tear in possession at start of expedition",
+    "id": 6621100,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「青色の結晶雫」を持つ": {
+    "en": "Cerulean Crystal Tear in possession at start of expedition",
+    "id": 6621200,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「斑彩色の硬雫」を持つ": {
+    "en": "Speckled Hardtear in possession at start of expedition",
+    "id": 6621300,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「緋色の泡雫」を持つ": {
+    "en": "Crimson Bubbletear in possession at start of expedition",
+    "id": 6621400,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「真珠色の泡雫」を持つ": {
+    "en": "Opaline Bubbletear in possession at start of expedition",
+    "id": 6621500,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「緋湧きの結晶雫」を持つ": {
+    "en": "Crimsonburst Crystal Tear in possession at start of expedition",
+    "id": 6621600,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「緑湧きの結晶雫」を持つ": {
+    "en": "Greenburst Crystal Tear in possession at start of expedition",
+    "id": 6621700,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「真珠色の硬雫」を持つ": {
+    "en": "Opaline Hardtear in possession at start of expedition",
+    "id": 6621800,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「連棘の割れ雫」を持つ": {
+    "en": "Thorny Cracked Tear in possession at start of expedition",
+    "id": 6621900,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「大棘の割れ雫」を持つ": {
+    "en": "Spiked Cracked Tear in possession at start of expedition",
+    "id": 6622000,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「風の結晶雫」を持つ": {
+    "en": "Windy Crystal Tear in possession at start of expedition",
+    "id": 6622100,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「破裂した結晶雫」を持つ": {
+    "en": "Ruptured Crystal Tear in possession at start of expedition",
+    "id": 6622200,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「鉛色の硬雫」を持つ": {
+    "en": "Leaden Hardtear in possession at start of expedition",
+    "id": 6622300,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「細枝の割れ雫」を持つ": {
+    "en": "Twiggy Cracked Tear in possession at start of expedition",
+    "id": 6622400,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「緋色渦の泡雫」を持つ": {
+    "en": "Crimsonwhorl Bubbletear in possession at start of expedition",
+    "id": 6622500,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「青色の秘雫」を持つ": {
+    "en": "Cerulean Hidden Tear in possession at start of expedition",
+    "id": 6622600,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「岩棘の割れ雫」を持つ": {
+    "en": "Stonebarb Cracked Tear in possession at start of expedition",
+    "id": 6622700,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「炎纏いの割れ雫」を持つ": {
+    "en": "Flame-Shrouding Cracked Tear in possession at start of expedition",
+    "id": 6622800,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「魔力纏いの割れ雫」を持つ": {
+    "en": "Magic-Shrouding Cracked Tear in possession at start of expedition",
+    "id": 6622900,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「雷纏いの割れ雫」を持つ": {
+    "en": "Lightning-Shrouding Cracked Tear in possession at start of expedition",
+    "id": 6623000,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「聖纏いの割れ雫」を持つ": {
+    "en": "Holy-Shrouding Cracked Tear in possession at start of expedition",
+    "id": 6623100,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「緑溢れの結晶雫」を持つ": {
+    "en": "Greenspill Crystal Tear in possession at start of expedition",
+    "id": 6623200,
+    "normalProb": 0,
+    "deepProb": 0.00417137805968596,
+    "normalOneIn": null,
+    "deepOneIn": 240
+  },
+  "出撃時に「高揚の香り」を持つ": {
+    "en": "Uplifting Aromatic in possession at start of expedition",
+    "id": 6624000,
+    "normalProb": 0,
+    "deepProb": 0.004291487333526842,
+    "normalOneIn": null,
+    "deepOneIn": 233
+  },
+  "出撃時に「火花の香り」を持つ": {
+    "en": "Spark Aromatic in possession at start of expedition",
+    "id": 6624100,
+    "normalProb": 0,
+    "deepProb": 0.004291487333526842,
+    "normalOneIn": null,
+    "deepOneIn": 233
+  },
+  "出撃時に「鉄壺の香薬」を持つ": {
+    "en": "Ironjar Aromatic in possession at start of expedition",
+    "id": 6624200,
+    "normalProb": 0,
+    "deepProb": 0.004291487333526842,
+    "normalOneIn": null,
+    "deepOneIn": 233
+  },
+  "出撃時に「狂熱の香薬」を持つ": {
+    "en": "Bloodboil Aromatic in possession at start of expedition",
+    "id": 6624300,
+    "normalProb": 0,
+    "deepProb": 0.004291487333526842,
+    "normalOneIn": null,
+    "deepOneIn": 233
+  },
+  "出撃時に「毒の噴霧」を持つ": {
+    "en": "Poison Spraymist in possession at start of expedition",
+    "id": 6624400,
+    "normalProb": 0,
+    "deepProb": 0.004291487333526842,
+    "normalOneIn": null,
+    "deepOneIn": 233
+  },
+  "出撃時に「酸の噴霧」を持つ": {
+    "en": "Acid Spraymist in possession at start of expedition",
+    "id": 6624500,
+    "normalProb": 0,
+    "deepProb": 0.004291487333526842,
+    "normalOneIn": null,
+    "deepOneIn": 233
+  },
+  "潜在する力から、短剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Daggers",
+    "id": 6630000,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、直剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Straight Swords",
+    "id": 6630100,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Greatswords",
+    "id": 6630200,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、特大剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Colossal Swords",
+    "id": 6630300,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、曲剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Curved Swords",
+    "id": 6630400,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大曲剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Curved Greatswords",
+    "id": 6630500,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、刀を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Katana",
+    "id": 6630600,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、両刃剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Twinblades",
+    "id": 6630700,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、刺剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Thrusting Swords",
+    "id": 6630800,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、重刺剣を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Heavy Thrusting Swords",
+    "id": 6630900,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、斧を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Axes",
+    "id": 6631000,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大斧を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Greataxes",
+    "id": 6631100,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、槌を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Hammers",
+    "id": 6631200,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大槌を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Great Hammers",
+    "id": 6631300,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、フレイルを��つけやすくなる": {
+    "en": "Dormant Power Helps Discover Flails",
+    "id": 6631400,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、槍を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Spears",
+    "id": 6631500,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大槍を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Great Spears",
+    "id": 6631600,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、斧槍を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Halberds",
+    "id": 6631700,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、鎌を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Reapers",
+    "id": 6631800,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、拳を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Fists",
+    "id": 6631900,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、爪を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Claws",
+    "id": 6632000,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、鞭を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Whips",
+    "id": 6632100,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、特大武器を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Colossal Weapons",
+    "id": 6632200,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、弓を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Bows",
+    "id": 6632300,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大弓を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Greatbows",
+    "id": 6632400,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、クロスボウを見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Crossbows",
+    "id": 6632500,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、バリスタを見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Ballistas",
+    "id": 6632600,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、小盾を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Small Shields",
+    "id": 6632700,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、中盾を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Medium Shields",
+    "id": 6632800,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、大盾を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Greatshields",
+    "id": 6632900,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、杖を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Staves",
+    "id": 6633000,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "潜在する力から、聖印を見つけやすくなる": {
+    "en": "Dormant Power Helps Discover Sacred Seals",
+    "id": 6633100,
+    "normalProb": 0.0007304240381693769,
+    "deepProb": 0.004513838329522442,
+    "normalOneIn": 1369,
+    "deepOneIn": 222
+  },
+  "【追跡者】精神力上昇、生命力低下": {
+    "en": "[Wylder] Improved Mind, Reduced Vigor",
+    "id": 6640000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【追跡者】知力／信仰上昇、筋力／技量低下": {
+    "en": "[Wylder] Improved Intelligence and Faith, Reduced Strength and Dexterity",
+    "id": 6640100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【守護者】筋力／技量上昇、生命力低下": {
+    "en": "[Guardian] Improved Strength and Dexterity, Reduced Vigor",
+    "id": 6641000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【守護者】精神力／信仰上昇、生命力低下": {
+    "en": "[Guardian] Improved Mind and Faith, Reduced Vigor",
+    "id": 6641100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【鉄の目】神秘上昇、技量低下": {
+    "en": "[Ironeye] Improved Arcane, Reduced Dexterity",
+    "id": 6642000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【鉄の目】生命力／筋力上昇、技量低下": {
+    "en": "[Ironeye] Improved Vigor and Strength, Reduced Dexterity",
+    "id": 6642100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【レディ】生命力／筋力上昇、精神力低下": {
+    "en": "[Duchess] Improved Vigor and Strength, Reduced Mind",
+    "id": 6643000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【レディ】精神力／信仰上昇、知力低下": {
+    "en": "[Duchess] Improved Mind and Faith, Reduced Intelligence",
+    "id": 6643100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【無頼漢】精神力／知力上昇、生命力／持久力低下": {
+    "en": "[Raider] Improved Mind and Intelligence, Reduced Vigor and Endurance",
+    "id": 6644000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【無頼漢】神秘上昇、生命力低下": {
+    "en": "[Raider] Improved Arcane, Reduced Vigor",
+    "id": 6644100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【復讐者】生命力／持久力上昇、精神力低下": {
+    "en": "[Revenant] Improved Vigor and Endurance, Reduced Mind",
+    "id": 6645000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【復讐者】筋力上昇、信仰低下": {
+    "en": "[Revenant] Improved Strength, Reduced Faith",
+    "id": 6645100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【隠者】生命力／持久力／技量上昇、知力／信仰低下": {
+    "en": "[Recluse] Improved Vigor, Endurance, and Dexterity, Reduced Intelligence and Faith",
+    "id": 6646000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【隠者】知力／信仰上昇、精神力低下": {
+    "en": "[Recluse] Improved Intelligence and Faith, Reduced Mind",
+    "id": 6646100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【執行者】生命力／持久力上昇、神秘低下": {
+    "en": "[Executor] Improved Vigor and Endurance, Reduced Arcane",
+    "id": 6647000,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【執行者】技量／神秘上昇、生命力低下": {
+    "en": "[Executor] Improved Dexterity and Arcane, Reduced Vigor",
+    "id": 6647100,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【学者】精神力上昇、生命力低下": {
+    "en": "[Scholar] Improved Mind, Reduced Vigor",
+    "id": 6647200,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【学者】持久力／技量上昇、知力／神秘低下": {
+    "en": "[Scholar] Improved Endurance and Dexterity, Reduced Intelligence and Arcane",
+    "id": 6647300,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【葬儀屋】技量上昇、生命力／信仰低下": {
+    "en": "[Undertaker] Improved Dexterity, Reduced Vigor and Faith",
+    "id": 6647400,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "【葬儀屋】精神力／信仰上昇、筋力低下": {
+    "en": "[Undertaker] Improved Mind and Faith, Reduced Strength",
+    "id": 6647500,
+    "normalProb": 0,
+    "deepProb": 0.005213374769013825,
+    "normalOneIn": null,
+    "deepOneIn": 192
+  },
+  "被ダメージ時、毒を蓄積": {
+    "en": "Taking Damage Causes Poison Buildup",
+    "id": 6820000,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "被ダメージ時、腐敗を蓄積": {
+    "en": "Taking Damage Causes Rot Buildup",
+    "id": 6820100,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "被ダメージ時、冷気を蓄積": {
+    "en": "Taking Damage Causes Frost Buildup",
+    "id": 6820200,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "被ダメージ時、出血を蓄積": {
+    "en": "Taking Damage Causes Blood Loss Buildup",
+    "id": 6820300,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "被ダメージ時、発狂を蓄積": {
+    "en": "Taking Damage Causes Madness Buildup",
+    "id": 6820400,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "被ダメージ時、睡眠を蓄積": {
+    "en": "Taking Damage Causes Sleep Buildup",
+    "id": 6820500,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "被ダメージ時、死を蓄積": {
+    "en": "Taking Damage Causes Death Buildup",
+    "id": 6820600,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "筋力と知力が低下": {
+    "en": "Reduced Strength and Intelligence",
+    "id": 6830000,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "技量と信仰が低下": {
+    "en": "Reduced Dexterity and Faith",
+    "id": 6830100,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "知力と技量が低下": {
+    "en": "Reduced Intelligence and Dexterity",
+    "id": 6830200,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "信仰と筋力が低下": {
+    "en": "Reduced Faith and Strength",
+    "id": 6830300,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "生命力と神秘が低下": {
+    "en": "Reduced Vigor and Arcane",
+    "id": 6830400,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "取得ルーン減少": {
+    "en": "Reduced Rune Acquisition",
+    "id": 6840000,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "聖杯瓶の回復量低下": {
+    "en": "Reduced Flask HP Restoration",
+    "id": 6840100,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "アーツゲージ蓄積鈍化": {
+    "en": "Ultimate Art Charging Impaired",
+    "id": 6840200,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "すべての状態異常耐性低下": {
+    "en": "All Resistances Down",
+    "id": 6850200,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "ＨＰ持続減少": {
+    "en": "Continuous HP Loss",
+    "id": 6850500,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "回避直後、カット率低下": {
+    "en": "Reduced Damage Negation After Evading",
+    "id": 6850700,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "回避連続時、カット率低下": {
+    "en": "Repeated Evasions Lower Damage Negation",
+    "id": 6850800,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "聖杯瓶使用時、カット率低下": {
+    "en": "Reduced Damage Negation for Flask Usages",
+    "id": 6850900,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "ＨＰ最大未満時、攻撃力低下": {
+    "en": "Lower Attack When Below Max HP",
+    "id": 6851200,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "ＨＰ最大未満時、毒が蓄積": {
+    "en": "Poison Buildup When Below Max HP",
+    "id": 6851300,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "ＨＰ最大未満時、腐敗が蓄積": {
+    "en": "Rot Buildup When Below Max HP",
+    "id": 6851400,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "瀕死時、最大ＨＰ低下": {
+    "en": "Near Death Reduces Max HP",
+    "id": 6851700,
+    "normalProb": 0,
+    "deepProb": 0,
+    "normalOneIn": null,
+    "deepOneIn": null
+  },
+  "生命力＋１": {
+    "en": "Vigor +1",
+    "id": 7000000,
+    "normalProb": 0.008954030693431113,
+    "deepProb": 0,
+    "normalOneIn": 112,
+    "deepOneIn": null
+  },
+  "生命力＋２": {
+    "en": "Vigor +2",
+    "id": 7000001,
+    "normalProb": 0.011377030837454224,
+    "deepProb": 0,
+    "normalOneIn": 88,
+    "deepOneIn": null
+  },
+  "生命力＋３": {
+    "en": "Vigor +3",
+    "id": 7000002,
+    "normalProb": 0.011377030837454224,
+    "deepProb": 0,
+    "normalOneIn": 88,
+    "deepOneIn": null
+  },
+  "精神力＋１": {
+    "en": "Mind +1",
+    "id": 7000100,
+    "normalProb": 0.008954030693431111,
+    "deepProb": 0,
+    "normalOneIn": 112,
+    "deepOneIn": null
+  },
+  "精神力＋２": {
+    "en": "Mind +2",
+    "id": 7000101,
+    "normalProb": 0.011377030837454224,
+    "deepProb": 0,
+    "normalOneIn": 88,
+    "deepOneIn": null
+  },
+  "精神力＋３": {
+    "en": "Mind +3",
+    "id": 7000102,
+    "normalProb": 0.011377030837454224,
+    "deepProb": 0,
+    "normalOneIn": 88,
+    "deepOneIn": null
+  },
+  "持久力＋１": {
+    "en": "Endurance +1",
+    "id": 7000200,
+    "normalProb": 0.008954030693431111,
+    "deepProb": 0,
+    "normalOneIn": 112,
+    "deepOneIn": null
+  },
+  "持久力＋２": {
+    "en": "Endurance +2",
+    "id": 7000201,
+    "normalProb": 0.011377030837454222,
+    "deepProb": 0,
+    "normalOneIn": 88,
+    "deepOneIn": null
+  },
+  "持久力＋３": {
+    "en": "Endurance +3",
+    "id": 7000202,
+    "normalProb": 0.011377030837454222,
+    "deepProb": 0,
+    "normalOneIn": 88,
+    "deepOneIn": null
+  },
+  "筋力＋１": {
+    "en": "Strength +1",
+    "id": 7000300,
+    "normalProb": 0.008990842900028757,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "筋力＋２": {
+    "en": "Strength +2",
+    "id": 7000301,
+    "normalProb": 0.008990842900028757,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "筋力＋３": {
+    "en": "Strength +3",
+    "id": 7000302,
+    "normalProb": 0.008990842900028757,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "技量＋１": {
+    "en": "Dexterity +1",
+    "id": 7000400,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "技量＋２": {
+    "en": "Dexterity +2",
+    "id": 7000401,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "技量＋３": {
+    "en": "Dexterity +3",
+    "id": 7000402,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "知力＋１": {
+    "en": "Intelligence +1",
+    "id": 7000500,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "知力＋２": {
+    "en": "Intelligence +2",
+    "id": 7000501,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "知力＋３": {
+    "en": "Intelligence +3",
+    "id": 7000502,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "信仰＋１": {
+    "en": "Faith +1",
+    "id": 7000600,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "信仰＋２": {
+    "en": "Faith +2",
+    "id": 7000601,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "信仰＋３": {
+    "en": "Faith +3",
+    "id": 7000602,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "神秘＋１": {
+    "en": "Arcane +1",
+    "id": 7000700,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "神秘＋２": {
+    "en": "Arcane +2",
+    "id": 7000701,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "神秘＋３": {
+    "en": "Arcane +3",
+    "id": 7000702,
+    "normalProb": 0.008990842900028755,
+    "deepProb": 0,
+    "normalOneIn": 111,
+    "deepOneIn": null
+  },
+  "スキルクールタイム軽減＋１": {
+    "en": "Character Skill Cooldown Reduction +1",
+    "id": 7000800,
+    "normalProb": 0.008052088324672833,
+    "deepProb": 0,
+    "normalOneIn": 124,
+    "deepOneIn": null
+  },
+  "スキルクールタイム軽減＋２": {
+    "en": "Character Skill Cooldown Reduction +2",
+    "id": 7000801,
+    "normalProb": 0.010475860177969832,
+    "deepProb": 0,
+    "normalOneIn": 95,
+    "deepOneIn": null
+  },
+  "スキルクールタイム軽減＋３": {
+    "en": "Character Skill Cooldown Reduction +3",
+    "id": 7000802,
+    "normalProb": 0.010475860177969832,
+    "deepProb": 0,
+    "normalOneIn": 95,
+    "deepOneIn": null
+  },
+  "アーツゲージ自然蓄積＋１": {
+    "en": "Ultimate Art Auto Charge +1",
+    "id": 7000900,
+    "normalProb": 0.008052088324672833,
+    "deepProb": 0,
+    "normalOneIn": 124,
+    "deepOneIn": null
+  },
+  "アーツゲージ自然蓄積＋２": {
+    "en": "Ultimate Art Auto Charge +2",
+    "id": 7000901,
+    "normalProb": 0.010475860177969832,
+    "deepProb": 0,
+    "normalOneIn": 95,
+    "deepOneIn": null
+  },
+  "アーツゲージ自然蓄積＋３": {
+    "en": "Ultimate Art Auto Charge +3",
+    "id": 7000902,
+    "normalProb": 0.010475860177969832,
+    "deepProb": 0,
+    "normalOneIn": 95,
+    "deepOneIn": null
+  },
+  "強靭度＋１": {
+    "en": "Poise +1",
+    "id": 7001000,
+    "normalProb": 0.00808522329931808,
+    "deepProb": 0,
+    "normalOneIn": 124,
+    "deepOneIn": null
+  },
+  "強靭度＋２": {
+    "en": "Poise +2",
+    "id": 7001001,
+    "normalProb": 0.00808522329931808,
+    "deepProb": 0,
+    "normalOneIn": 124,
+    "deepOneIn": null
+  },
+  "強靭度＋３": {
+    "en": "Poise +3",
+    "id": 7001002,
+    "normalProb": 0.00808522329931808,
+    "deepProb": 0.010633882470362151,
+    "normalOneIn": 124,
+    "deepOneIn": 94
+  },
+  "物理攻撃力上昇": {
+    "en": "Physical Attack Up",
+    "id": 7001400,
+    "normalProb": 0.007159923809367601,
+    "deepProb": 0,
+    "normalOneIn": 140,
+    "deepOneIn": null
+  },
+  "物理攻撃力上昇＋１": {
+    "en": "Physical Attack Up +1",
+    "id": 7001401,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0,
+    "normalOneIn": 106,
+    "deepOneIn": null
+  },
+  "物理攻撃力上昇＋２": {
+    "en": "Physical Attack Up +2",
+    "id": 7001402,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0.00751703734689831,
+    "normalOneIn": 106,
+    "deepOneIn": 133
+  },
+  "魔力攻撃力上昇": {
+    "en": "Magic Attack Power Up",
+    "id": 7001500,
+    "normalProb": 0.007159923809367601,
+    "deepProb": 0,
+    "normalOneIn": 140,
+    "deepOneIn": null
+  },
+  "魔力攻撃力上昇＋１": {
+    "en": "Magic Attack Power Up +1",
+    "id": 7001501,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0,
+    "normalOneIn": 106,
+    "deepOneIn": null
+  },
+  "魔力攻撃力上昇＋２": {
+    "en": "Magic Attack Power Up +2",
+    "id": 7001502,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0.00751703734689831,
+    "normalOneIn": 106,
+    "deepOneIn": 133
+  },
+  "炎攻撃力上昇": {
+    "en": "Fire Attack Power Up",
+    "id": 7001600,
+    "normalProb": 0.007159923809367601,
+    "deepProb": 0,
+    "normalOneIn": 140,
+    "deepOneIn": null
+  },
+  "炎攻撃力上昇＋１": {
+    "en": "Fire Attack Power Up +1",
+    "id": 7001601,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0,
+    "normalOneIn": 106,
+    "deepOneIn": null
+  },
+  "炎攻撃力上昇＋２": {
+    "en": "Fire Attack Power Up +2",
+    "id": 7001602,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0.00751703734689831,
+    "normalOneIn": 106,
+    "deepOneIn": 133
+  },
+  "雷攻撃力上昇": {
+    "en": "Lightning Attack Power Up",
+    "id": 7001700,
+    "normalProb": 0.007159923809367601,
+    "deepProb": 0,
+    "normalOneIn": 140,
+    "deepOneIn": null
+  },
+  "雷攻撃力上昇＋１": {
+    "en": "Lightning Attack Power Up +1",
+    "id": 7001701,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0,
+    "normalOneIn": 106,
+    "deepOneIn": null
+  },
+  "雷攻撃力上昇＋２": {
+    "en": "Lightning Attack Power Up +2",
+    "id": 7001702,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0.00751703734689831,
+    "normalOneIn": 106,
+    "deepOneIn": 133
+  },
+  "聖攻撃力上昇": {
+    "en": "Holy Attack Power Up",
+    "id": 7001800,
+    "normalProb": 0.007159923809367601,
+    "deepProb": 0,
+    "normalOneIn": 140,
+    "deepOneIn": null
+  },
+  "聖攻撃力上昇＋１": {
+    "en": "Holy Attack Power Up +1",
+    "id": 7001801,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0,
+    "normalOneIn": 106,
+    "deepOneIn": null
+  },
+  "聖攻撃力上昇＋２": {
+    "en": "Holy Attack Power Up +2",
+    "id": 7001802,
+    "normalProb": 0.009476130013612253,
+    "deepProb": 0.00751703734689831,
+    "normalOneIn": 106,
+    "deepOneIn": 133
+  },
+  "魔力カット率上昇": {
+    "en": "Magic Damage Negation Up",
+    "id": 7002600,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.01043614024621936,
+    "normalOneIn": 123,
+    "deepOneIn": 96
+  },
+  "炎カット率上昇": {
+    "en": "Fire Damage Negation Up",
+    "id": 7002700,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.01043614024621936,
+    "normalOneIn": 123,
+    "deepOneIn": 96
+  },
+  "雷カット率上昇": {
+    "en": "Lightning Damage Negation Up",
+    "id": 7002800,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.01043614024621936,
+    "normalOneIn": 123,
+    "deepOneIn": 96
+  },
+  "聖カット率上昇": {
+    "en": "Holy Damage Negation Up",
+    "id": 7002900,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.01043614024621936,
+    "normalOneIn": 123,
+    "deepOneIn": 96
+  },
+  "毒耐性上昇": {
+    "en": "Improved Poison Resistance",
+    "id": 7003000,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "出血耐性上昇": {
+    "en": "Improved Blood Loss Resistance",
+    "id": 7003100,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "睡眠耐性上昇": {
+    "en": "Improved Sleep Resistance",
+    "id": 7003200,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "抗死耐性上昇": {
+    "en": "Improved Death Blight Resistance",
+    "id": 7003300,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219675,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "腐敗耐性上昇": {
+    "en": "Improved Rot Resistance",
+    "id": 7003400,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "冷気耐性上昇": {
+    "en": "Improved Frost Resistance",
+    "id": 7003500,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219677,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "発狂耐性上昇": {
+    "en": "Improved Madness Resistance",
+    "id": 7003600,
+    "normalProb": 0.008122481589754928,
+    "deepProb": 0.010593268822219675,
+    "normalOneIn": 123,
+    "deepOneIn": 94
+  },
+  "ダメージを受けた直後、攻撃によりＨＰの一部を回復": {
+    "en": "Partial HP Restoration upon Post-Damage Attacks",
+    "id": 7005600,
+    "normalProb": 0.010353400807668552,
+    "deepProb": 0.008325379874654565,
+    "normalOneIn": 97,
+    "deepOneIn": 120
+  },
+  "両手持ちの、体勢を崩す力上昇": {
+    "en": "Improved Stance-Breaking when Two-Handing",
+    "id": 7006000,
+    "normalProb": 0.0069453028232450455,
+    "deepProb": 0,
+    "normalOneIn": 144,
+    "deepOneIn": null
+  },
+  "二刀持ちの、体勢を崩す力上昇": {
+    "en": "Improved Stance-Breaking when Wielding Two Armaments",
+    "id": 7006100,
+    "normalProb": 0.0069453028232450455,
+    "deepProb": 0,
+    "normalOneIn": 144,
+    "deepOneIn": null
+  },
+  "聖杯瓶の回復を、周囲の味方に分配": {
+    "en": "Flask Also Heals Allies",
+    "id": 7010200,
+    "normalProb": 0.007882958720950626,
+    "deepProb": 0.008482802049092195,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "【追跡者】アーツ発動時、周囲を延焼": {
+    "en": "[Wylder] Art activation spreads fire in area",
+    "id": 7010500,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "[Duchess] Reprise events upon nearby enemies by landing the final blow of a chain attack with dagger": {
+    "en": "[Duchess] Reprise events upon nearby enemies by landing the final blow of a chain attack with dagger",
+    "id": 7010700,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【復讐者】アーツ発動時、自身のＨＰを使って周囲の味方を全回復": {
+    "en": "[Revenant] Expend own HP to fully heal nearby allies when activating Art",
+    "id": 7010900,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【守護者】スキルの持続時間延長": {
+    "en": "[Guardian] Increased duration for Character Skill",
+    "id": 7011000,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【復讐者】アーツ発動中、霊炎の爆発を起こす": {
+    "en": "[Revenant] Trigger ghostflame explosion during Ultimate Art activation",
+    "id": 7011200,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【守護者】斧槍のタメ攻撃で、つむじ風を起こす": {
+    "en": "[Guardian] Creates whirlwind when charging halberd attacks",
+    "id": 7011600,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【執行者】アーツ発動中、咆哮でＨＰ回復": {
+    "en": "[Executor] Roaring restores HP while Art is active",
+    "id": 7011700,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【守護者】アーツ発動中、周囲の味方のＨＰを徐々に回復": {
+    "en": "[Guardian] Slowly restores nearby allies' HP while Art is active",
+    "id": 7012000,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "ＨＰが少ないとき、自身と近くの味方のＨＰをゆっくり回復": {
+    "en": "Slowly restore HP for self and nearby allies when HP is low",
+    "id": 7012200,
+    "normalProb": 0.007882958720950626,
+    "deepProb": 0.008482802049092193,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "ＨＰ低下時、カット率上昇": {
+    "en": "Improved Damage Negation at Low HP",
+    "id": 7012300,
+    "normalProb": 0.007882958720950626,
+    "deepProb": 0.008482802049092195,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "【追跡者】スキル使用時、通常攻撃に炎の追撃が付く（大剣のみ）": {
+    "en": "[Wylder] Standard attacks enhanced with fiery follow-ups when using Character Skill (greatsword only)",
+    "id": 7020000,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "トーテム・ステラの周囲で、強靭度上昇": {
+    "en": "Improved Poise Near Totem Stela",
+    "id": 7030000,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "苔薬などのアイテム使用でＨＰ回復": {
+    "en": "HP restored when using medicinal boluses, etc.",
+    "id": 7030200,
+    "normalProb": 0.01035340080766855,
+    "deepProb": 0.008457095972380025,
+    "normalOneIn": 97,
+    "deepOneIn": 118
+  },
+  "ガード成功時、アーツゲージ増加": {
+    "en": "Successful guarding fills more of the Art gauge",
+    "id": 7030600,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0.008376515052804545,
+    "normalOneIn": 127,
+    "deepOneIn": 119
+  },
+  "ガード中、敵に狙われやすくなる": {
+    "en": "Draw enemy attention while guarding",
+    "id": 7030700,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0.008482802049092193,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "致命の一撃で、アーツゲージ増加": {
+    "en": "Critical hits fill more of the Art gauge",
+    "id": 7030800,
+    "normalProb": 0.01035340080766855,
+    "deepProb": 0.008376515052804545,
+    "normalOneIn": 97,
+    "deepOneIn": 119
+  },
+  "脂アイテム使用時、追加で物理攻撃力上昇": {
+    "en": "Physical attack power increases after using grease items",
+    "id": 7030900,
+    "normalProb": 0.006945302823245047,
+    "deepProb": 0.005991841363469668,
+    "normalOneIn": 144,
+    "deepOneIn": 167
+  },
+  "【復讐者】アーツ発動時、ファミリーと味方を強化": {
+    "en": "[Revenant] Strengthens family and allies when Ultimate Art is activated",
+    "id": 7031200,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【無頼漢】スキル使用中の被ダメージで、攻撃力とスタミナ上昇": {
+    "en": "[Raider] Damage taken while using Character Skill improves attack power and stamina",
+    "id": 7031300,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【レディ】背後から致命の一撃を当てると、見つかりにくくなり、足音が消える": {
+    "en": "[Duchess] Become difficult to spot and silence footsteps after landing critical from behind",
+    "id": 7031800,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "致命の一撃で、ルーンを取得": {
+    "en": "Critical Hits Earn Runes",
+    "id": 7031900,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0.008482802049092193,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "攻撃を受けると攻撃力上昇": {
+    "en": "Taking attacks improves attack power",
+    "id": 7032200,
+    "normalProb": 0.009313596583741823,
+    "deepProb": 0,
+    "normalOneIn": 107,
+    "deepOneIn": null
+  },
+  "【追跡者】アビリティ発動時、アーツゲージが大きく増加": {
+    "en": "[Wylder] Art gauge greatly filled when ability is activated",
+    "id": 7032400,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【レディ】アーツ発動中に敵を倒すと、攻撃力上昇": {
+    "en": "[Duchess] Defeating enemies while Art is active ups attack power",
+    "id": 7032700,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【隠者】属性の残滓を集めると、Terra Magicaが発動": {
+    "en": "[Recluse] Collecting affinity residue activates Terra Magica",
+    "id": 7032800,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【隠者】アーツ発動時、自身が出血し、攻撃力上昇": {
+    "en": "[Recluse] Suffer blood loss and increase attack power upon Art activation",
+    "id": 7032900,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【追跡者】スキルの使用回数＋１": {
+    "en": "[Wylder] +1 additional Character Skill use",
+    "id": 7033200,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【守護者】アビリティ発動中、ガード成功時に衝撃波を放つ": {
+    "en": "[Guardian] Successful guards send out shockwaves while ability is active",
+    "id": 7033400,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【隠者】アーツ発動時、最大ＨＰ上昇": {
+    "en": "[Recluse] Activating Ultimate Art raises Max HP",
+    "id": 7034100,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【執行者】スキル中の攻撃力上昇、攻撃時にカット率低下": {
+    "en": "[Executor] Character Skill Boosts Attack but Lowers Damage Negation While Attacking",
+    "id": 7034400,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【執行者】スキル発動中、妖刀の解放でＨＰ回復": {
+    "en": "[Executor] While Character Skill is active, unlocking use of cursed sword restores HP",
+    "id": 7034500,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【鉄の目】アーツのタメ発動時、毒の状態異常を付加": {
+    "en": "[Ironeye] Art Charge Activation Adds Poison Effect",
+    "id": 7034600,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【鉄の目】アーツ発動後、刺突カウンター強化": {
+    "en": "[Ironeye] Boosts thrusting counterattacks after executing Art",
+    "id": 7034700,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "致命の一撃で、スタミナ回復速度上昇": {
+    "en": "Critical Hit Boosts Stamina Recovery Speed",
+    "id": 7035100,
+    "normalProb": 0.007882958720950623,
+    "deepProb": 0.008457095972380025,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "ガード成功時、ＨＰ回復": {
+    "en": "HP Recovery From Successful Guarding",
+    "id": 7036100,
+    "normalProb": 0.007882958720950623,
+    "deepProb": 0.008482802049092193,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "【学者】スキルの進捗率の低下を抑制": {
+    "en": "[Scholar] Prevent slowing of Character Skill progress",
+    "id": 7036200,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【学者】スキル使用時、対象に含まれた味方の攻撃力上昇": {
+    "en": "[Scholar] Allies targeted by Character Skill gain boosted attack",
+    "id": 7036300,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【学者】アーツでリンクした敵対象に、継続ダメージ": {
+    "en": "[Scholar] Continuous damage inflicted on targets threaded by Ultimate Art",
+    "id": 7036400,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【学者】スキルによる標本が増える度、ルーンを取得": {
+    "en": "[Scholar] Earn runes for each additional specimen acquired with Character Skill",
+    "id": 7036500,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【葬儀屋】アーツ発動時、攻撃力上昇": {
+    "en": "[Undertaker] Activating Ultimate Art increases attack power",
+    "id": 7036800,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【葬儀屋】連撃の最終攻撃命中時、攻撃力上昇": {
+    "en": "[Undertaker] Attack power increased by landing the final blow of a chain attack",
+    "id": 7036900,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "[Undertaker] Physical attacks boosted while assist effect from incantation is active for self": {
+    "en": "[Undertaker] Physical attacks boosted while assist effect from incantation is active for self",
+    "id": 7037000,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【葬儀屋】アーツ発動時、触れた味方のＨＰ回復": {
+    "en": "[Undertaker] Contact with allies restores their HP while Ultimate Art is activated",
+    "id": 7037300,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "通常攻撃の１段目強化": {
+    "en": "Improved Initial Standard Attack",
+    "id": 7040000,
+    "normalProb": 0.009313596583741824,
+    "deepProb": 0.005991841363469667,
+    "normalOneIn": 107,
+    "deepOneIn": 167
+  },
+  "ガードカウンター強化": {
+    "en": "Improved Guard Counters",
+    "id": 7040100,
+    "normalProb": 0.006945302823245049,
+    "deepProb": 0.005991841363469667,
+    "normalOneIn": 144,
+    "deepOneIn": 167
+  },
+  "致命の一撃強化": {
+    "en": "Improved Critical Hits",
+    "id": 7040200,
+    "normalProb": 0.006945302823245049,
+    "deepProb": 0.005991841363469667,
+    "normalOneIn": 144,
+    "deepOneIn": 167
+  },
+  "投擲壺の攻撃力上昇": {
+    "en": "Improved Throwing Pot Damage",
+    "id": 7040300,
+    "normalProb": 0.006677223444687713,
+    "deepProb": 0.00431828063622537,
+    "normalOneIn": 150,
+    "deepOneIn": 232
+  },
+  "投擲ナイフの攻撃力上昇": {
+    "en": "Improved Throwing Knife Damage",
+    "id": 7040400,
+    "normalProb": 0.006677223444687713,
+    "deepProb": 0.00431828063622537,
+    "normalOneIn": 150,
+    "deepOneIn": 232
+  },
+  "輝石、重力石アイテムの攻撃力上昇": {
+    "en": "Improved Glintstone and Gravity Stone Damage",
+    "id": 7040500,
+    "normalProb": 0.006677223444687713,
+    "deepProb": 0.00431828063622537,
+    "normalOneIn": 150,
+    "deepOneIn": 232
+  },
+  "咆哮とブレス強化": {
+    "en": "Improved Roar & Breath Attacks",
+    "id": 7043000,
+    "normalProb": 0.005879539062520731,
+    "deepProb": 0,
+    "normalOneIn": 170,
+    "deepOneIn": null
+  },
+  "調香術強化": {
+    "en": "Improved Perfuming Arts",
+    "id": 7043100,
+    "normalProb": 0.006677223444687713,
+    "deepProb": 0.00431828063622537,
+    "normalOneIn": 150,
+    "deepOneIn": 232
+  },
+  "石掘りの魔術を強化": {
+    "en": "Improved Stonedigger Sorcery",
+    "id": 7043200,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "カーリアの剣の魔術を強化": {
+    "en": "Improved Carian Sword Sorcery",
+    "id": 7043300,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "輝剣の魔術を強化": {
+    "en": "Improved Glintblade Sorcery",
+    "id": 7043400,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "不可視の魔術を強化": {
+    "en": "Improved Invisibility Sorcery",
+    "id": 7043500,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "結晶人の魔術を強化": {
+    "en": "Improved Crystalian sorcery",
+    "id": 7043600,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "重力の魔術を強化": {
+    "en": "Improved Gravity Sorcery",
+    "id": 7043700,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "茨の魔術を強化": {
+    "en": "Improved Thorn Sorcery",
+    "id": 7043800,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "黄金律原理主義の祈祷を強化": {
+    "en": "Improved Fundamentalist Incantations",
+    "id": 7044000,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "王都古竜信仰の祈祷を強化": {
+    "en": "Improved Dragon Cult Incantations",
+    "id": 7044100,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "巨人の火の祈祷を強化": {
+    "en": "Improved Giants' Flame Incantations",
+    "id": 7044200,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "神狩りの祈祷を強化": {
+    "en": "Improved Godslayer Incantations",
+    "id": 7044300,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "獣の祈祷を強化": {
+    "en": "Improved Bestial Incantations",
+    "id": 7044400,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "狂い火の祈祷を強化": {
+    "en": "Improved Frenzied Flame Incantations",
+    "id": 7044500,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "竜餐の祈祷を強化": {
+    "en": "Improved Dragon Communion Incantations",
+    "id": 7044600,
+    "normalProb": 0.006509659764466826,
+    "deepProb": 0.004236239517481679,
+    "normalOneIn": 154,
+    "deepOneIn": 236
+  },
+  "自身を除く、周囲の味方のスタミナ回復速度上昇": {
+    "en": "Raised stamina recovery for nearby allies, but not for self",
+    "id": 7050000,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0.0084828020490922,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "アイテムの効果が周囲の味方にも発動": {
+    "en": "Items confer effect to all nearby allies",
+    "id": 7050100,
+    "normalProb": 0.010353400807668549,
+    "deepProb": 0.0084828020490922,
+    "normalOneIn": 97,
+    "deepOneIn": 118
+  },
+  "封牢の囚を倒す度、攻撃力上昇": {
+    "en": "Attack power increased for each evergaol prisoner defeated",
+    "id": 7060000,
+    "normalProb": 0.006945302823245051,
+    "deepProb": 0,
+    "normalOneIn": 144,
+    "deepOneIn": null
+  },
+  "魔術師塔の仕掛けが解除される度、最大ＦＰ上昇": {
+    "en": "Max FP increased for each Sorcerer's Rise unlocked",
+    "id": 7060100,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0,
+    "normalOneIn": 127,
+    "deepOneIn": null
+  },
+  "夜の侵入者を倒す度、攻撃力上昇": {
+    "en": "Attack power increased for each Night Invader defeated",
+    "id": 7060200,
+    "normalProb": 0.0069453028232450515,
+    "deepProb": 0,
+    "normalOneIn": 144,
+    "deepOneIn": null
+  },
+  "埋もれ宝の位置を地図に表示": {
+    "en": "Treasure marked upon map",
+    "id": 7070000,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0.0084828020490922,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "短剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Daggers Equipped",
+    "id": 7080000,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "直剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Straight Swords Equipped",
+    "id": 7080100,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Greatswords Equipped",
+    "id": 7080200,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "特大剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Colossal Swords Equipped",
+    "id": 7080300,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "曲剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Curved Swords Equipped",
+    "id": 7080400,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大曲剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Curved Greatswords Equipped",
+    "id": 7080500,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "刀の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Katana Equipped",
+    "id": 7080600,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "両刃剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Twinblades Equipped",
+    "id": 7080700,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "刺剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Thrusting Swords Equipped",
+    "id": 7080800,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "重刺剣の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Heavy Thrusting Swords Equipped",
+    "id": 7080900,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "斧の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Axes Equipped",
+    "id": 7081000,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大斧の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Greataxes Equipped",
+    "id": 7081100,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "槌の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Hammers Equipped",
+    "id": 7081200,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大槌の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Great Hammers Equipped",
+    "id": 7081300,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "フレイルの武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Flails Equipped",
+    "id": 7081400,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "槍の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Spears Equipped",
+    "id": 7081500,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大槍の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Great Spears Equipped",
+    "id": 7081700,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "斧槍の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Halberds Equipped",
+    "id": 7081800,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "鎌の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Reapers Equipped",
+    "id": 7081900,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "拳の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Fists Equipped",
+    "id": 7082000,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "爪の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Claws Equipped",
+    "id": 7082100,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "鞭の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Whips Equipped",
+    "id": 7082200,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "特大武器の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Colossal Weapons Equipped",
+    "id": 7082300,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "弓の武器種を３つ以上装備していると攻撃力上昇": {
+    "en": "Improved Attack Power with 3+ Bows Equipped",
+    "id": 7082400,
+    "normalProb": 0.001462800868833779,
+    "deepProb": 0.0010894257024490293,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "杖の武器種を３つ以上装備していると最大ＦＰ上昇": {
+    "en": "Max FP Up with 3+ Staves Equipped",
+    "id": 7082500,
+    "normalProb": 0.0016535360639715348,
+    "deepProb": 0.0015452775728234027,
+    "normalOneIn": 605,
+    "deepOneIn": 647
+  },
+  "聖印の武器種を３つ以上装備していると最大ＦＰ上昇": {
+    "en": "Max FP Up with 3+ Sacred Seals Equipped",
+    "id": 7082600,
+    "normalProb": 0.0016535360639715348,
+    "deepProb": 0.0015452775728234027,
+    "normalOneIn": 605,
+    "deepOneIn": 647
+  },
+  "小盾の武器種を３つ以上装備していると最大ＨＰ上昇": {
+    "en": "Max HP Up with 3+ Small Shields Equipped",
+    "id": 7082700,
+    "normalProb": 0.0016527184014255777,
+    "deepProb": 0.0015444366593321066,
+    "normalOneIn": 605,
+    "deepOneIn": 647
+  },
+  "中盾の武器種を３つ以上装備していると最大ＨＰ上昇": {
+    "en": "Max HP Up with 3+ Medium Shields Equipped",
+    "id": 7082800,
+    "normalProb": 0.0016527184014255777,
+    "deepProb": 0.0015444366593321066,
+    "normalOneIn": 605,
+    "deepOneIn": 647
+  },
+  "大盾の武器種を３つ以上装備していると最大ＨＰ上昇": {
+    "en": "Max HP Up with 3+ Greatshields Equipped",
+    "id": 7082900,
+    "normalProb": 0.0016527184014255777,
+    "deepProb": 0.0015444366593321066,
+    "normalOneIn": 605,
+    "deepOneIn": 647
+  },
+  "敵を倒した時、アーツゲージ増加": {
+    "en": "Defeating enemies fills more of the Art gauge",
+    "id": 7090000,
+    "normalProb": 0.007882958720950628,
+    "deepProb": 0.00837651505280455,
+    "normalOneIn": 127,
+    "deepOneIn": 119
+  },
+  "敵を倒した時、自身以外の味方のＨＰ回復": {
+    "en": "Defeating enemies restores HP for allies but not for self",
+    "id": 7090100,
+    "normalProb": 0.00788295872095063,
+    "deepProb": 0.008482802049092195,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "トーテム・ステラの周囲で敵を倒した時、ＨＰ回復": {
+    "en": "Defeating enemies near Totem Stela restores HP",
+    "id": 7090300,
+    "normalProb": 0.008487595460677018,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "攻撃命中時、スタミナ回復": {
+    "en": "Stamina Recovery upon Landing Attacks",
+    "id": 7100100,
+    "normalProb": 0.00788295872095063,
+    "deepProb": 0.008482802049092197,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "自身と味方の取得ルーン増加": {
+    "en": "Increased rune acquisition for self and allies",
+    "id": 7110000,
+    "normalProb": 0.01035340080766856,
+    "deepProb": 0.008482802049092197,
+    "normalOneIn": 97,
+    "deepOneIn": 118
+  },
+  "出撃時の武器に魔力攻撃力を付加": {
+    "en": "Starting armament deals magic damage",
+    "id": 7120000,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時の武器に炎攻撃力を付加": {
+    "en": "Starting armament deals fire damage",
+    "id": 7120100,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時の武器に雷攻撃力を付加": {
+    "en": "Starting armament deals lightning damage",
+    "id": 7120200,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時の武器に聖攻撃力を付加": {
+    "en": "Starting armament deals holy damage",
+    "id": 7120300,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時の武器に冷気の状態異常を付加": {
+    "en": "Starting armament inflicts frost",
+    "id": 7120400,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時の武器に毒の状態異常を付加": {
+    "en": "Starting armament inflicts poison",
+    "id": 7120500,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時の武器に出血の状態異常を付加": {
+    "en": "Starting armament inflicts blood loss",
+    "id": 7120600,
+    "normalProb": 0.00545270779877428,
+    "deepProb": 0,
+    "normalOneIn": 183,
+    "deepOneIn": null
+  },
+  "出撃時に「石剣の鍵」を持つ": {
+    "en": "Stonesword Key in possession at start of expedition",
+    "id": 7120900,
+    "normalProb": 0.0066772234446877115,
+    "deepProb": 0.004324893901790356,
+    "normalOneIn": 150,
+    "deepOneIn": 231
+  },
+  "出撃時に「小さなポーチ」を持つ": {
+    "en": "Small Pouch in possession at start of expedition",
+    "id": 7121000,
+    "normalProb": 0.009074348286539774,
+    "deepProb": 0.004324893901790356,
+    "normalOneIn": 110,
+    "deepOneIn": 231
+  },
+  "出撃時に「火炎壺」を持つ": {
+    "en": "Fire Pots in possession at start of expedition",
+    "id": 7121100,
+    "normalProb": 0.0066772234446877115,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「魔力壺」を持つ": {
+    "en": "Magic Pots in possession at start of expedition",
+    "id": 7121200,
+    "normalProb": 0.006677223444687713,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「雷壺」を持つ": {
+    "en": "Lightning Pots in possession at start of expedition",
+    "id": 7121300,
+    "normalProb": 0.006677223444687716,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「聖水壺」を持つ": {
+    "en": "Holy Water Pots in possession at start of expedition",
+    "id": 7121400,
+    "normalProb": 0.006677223444687716,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「骨の毒投げ矢」を持つ": {
+    "en": "Poisonbone Darts in possession at start of expedition",
+    "id": 7121500,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「結晶投げ矢」を持つ": {
+    "en": "Crystal Darts in possession at start of expedition",
+    "id": 7121600,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「スローイングダガー」を持つ": {
+    "en": "Throwing Daggers in possession at start of expedition",
+    "id": 7121700,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「屑輝石」を持つ": {
+    "en": "Glintstone Scraps in possession at start of expedition",
+    "id": 7121800,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「塊の重力石」を持つ": {
+    "en": "Gravity Stone Chunks in possession at start of expedition",
+    "id": 7121900,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「誘惑の枝」を持つ": {
+    "en": "Bewitching Branches in possession at start of expedition",
+    "id": 7122000,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「呪霊喚びの鈴」を持つ": {
+    "en": "Wraith Calling Bell in possession at start of expedition",
+    "id": 7122100,
+    "normalProb": 0.006677223444687718,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「火脂」を持つ": {
+    "en": "Fire Grease in possession at start of expedition",
+    "id": 7122200,
+    "normalProb": 0.006677223444687718,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「魔力脂」を持つ": {
+    "en": "Magic Grease in possession at start of expedition",
+    "id": 7122300,
+    "normalProb": 0.006677223444687718,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「雷脂」を持つ": {
+    "en": "Lightning Grease in possession at start of expedition",
+    "id": 7122400,
+    "normalProb": 0.00667722344468772,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「聖脂」を持つ": {
+    "en": "Holy Grease in possession at start of expedition",
+    "id": 7122500,
+    "normalProb": 0.00667722344468772,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時に「盾脂」を持つ": {
+    "en": "Shield Grease in possession at start of expedition",
+    "id": 7122600,
+    "normalProb": 0.00667722344468772,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「輝剣の円陣」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Glintblade Phalanx at start of expedition",
+    "id": 7122700,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「グラビタス」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Gravitas at start of expedition",
+    "id": 7122800,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時、対応する武器の戦技を「Flaming Strike」に変える": {
+    "en": "Changes compatible armament's skill to Flaming Strike at start of expedition",
+    "id": 7122900,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「溶岩噴火」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Eruption at start of expedition",
+    "id": 7123000,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「落雷」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Thunderbolt at start of expedition",
+    "id": 7123100,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「雷撃斬」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Lightning Slash at start of expedition",
+    "id": 7123200,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時、対応する武器の戦技を「Sacred Blade」に変える": {
+    "en": "Changes compatible armament's skill to Sacred Blade at start of expedition",
+    "id": 7123300,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「祈りの一撃」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Prayerful Strike at start of expedition",
+    "id": 7123400,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「毒の霧」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Poisonous Mist at start of expedition",
+    "id": 7123500,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「毒蛾は二度舞う」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Poison Moth Flight at start of expedition",
+    "id": 7123600,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「血の刃」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Blood Blade at start of expedition",
+    "id": 7123700,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「切腹」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Seppuku at start of expedition",
+    "id": 7123800,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時、対応する武器の戦技を「Chilling Mist」に変える": {
+    "en": "Changes compatible armament's skill to Chilling Mist at start of expedition",
+    "id": 7123900,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「霜踏み」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Hoarfrost Stomp at start of expedition",
+    "id": 7124000,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「白い影の誘い」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to White Shadow's Lure at start of expedition",
+    "id": 7124100,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「我慢」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Endure at start of expedition",
+    "id": 7124300,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「クイックステップ」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Quickstep at start of expedition",
+    "id": 7124400,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「嵐脚」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Storm Stomp at start of expedition",
+    "id": 7124500,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「デターミネーション」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Determination at start of expedition",
+    "id": 7124600,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時の武器の戦技を「アローレイン」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's skill to Rain of Arrows at start of expedition",
+    "id": 7124700,
+    "normalProb": 0.005258612045762405,
+    "deepProb": 0,
+    "normalOneIn": 190,
+    "deepOneIn": null
+  },
+  "出撃時に「星光の欠片」を持つ": {
+    "en": "Starlight Shards in possession at start of expedition",
+    "id": 7126000,
+    "normalProb": 0.006677223444687717,
+    "deepProb": 0,
+    "normalOneIn": 150,
+    "deepOneIn": null
+  },
+  "ガードカウンターに、自身の現在ＨＰの一部を加える": {
+    "en": "Guard counter is given a boost based on current HP",
+    "id": 7150000,
+    "normalProb": 0.006945302823245054,
+    "deepProb": 0.00599184136346967,
+    "normalOneIn": 144,
+    "deepOneIn": 167
+  },
+  "刺突カウンター発生時、ＨＰ回復": {
+    "en": "HP Restoration upon Thrusting Counterattack",
+    "id": 7160000,
+    "normalProb": 0.007882958720950626,
+    "deepProb": 0.008376515052804548,
+    "normalOneIn": 127,
+    "deepOneIn": 119
+  },
+  "【復讐者】ファミリーと共闘中の間、自身を強化": {
+    "en": "[Revenant] Power up while fighting alongside family",
+    "id": 7220000,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "出撃中、ショップでの購入に必要なルーンが割引": {
+    "en": "Rune discount for shop purchases while on expedition",
+    "id": 7230000,
+    "normalProb": 0.007882958720950625,
+    "deepProb": 0.008482802049092197,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "ダメージでのけぞった時、強靭度とカット率上昇": {
+    "en": "Improved Poise & Damage Negation When Knocked Back by Damage",
+    "id": 7240000,
+    "normalProb": 0.007882958720950625,
+    "deepProb": 0.008482802049092197,
+    "normalOneIn": 127,
+    "deepOneIn": 118
+  },
+  "毒状態の敵に対する攻撃を強化": {
+    "en": "Attack power up when facing poison-afflicted enemy",
+    "id": 7260000,
+    "normalProb": 0.007865617724247933,
+    "deepProb": 0.0081422100262654,
+    "normalOneIn": 127,
+    "deepOneIn": 123
+  },
+  "腐敗状態の敵に対する攻撃を強化": {
+    "en": "Attack power up when facing scarlet rot-afflicted enemy",
+    "id": 7260300,
+    "normalProb": 0.007865617724247933,
+    "deepProb": 0.0081422100262654,
+    "normalOneIn": 127,
+    "deepOneIn": 123
+  },
+  "凍傷状態の敵に対する攻撃を強化": {
+    "en": "Attack power up when facing frostbite-afflicted enemy",
+    "id": 7260400,
+    "normalProb": 0.007882958720950623,
+    "deepProb": 0.008325379874654568,
+    "normalOneIn": 127,
+    "deepOneIn": 120
+  },
+  "【鉄の目】スキルの使用回数＋１": {
+    "en": "[Ironeye] +1 additional Character Skill use",
+    "id": 7270100,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【鉄の目】弱点の持続時間を延長させる": {
+    "en": "[Ironeye] Extends duration of weak point",
+    "id": 7280000,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【レディ】スキルのダメージ上昇": {
+    "en": "[Duchess] Improved Character Skill Attack Power",
+    "id": 7290000,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "【無頼漢】アーツの効果時間延長": {
+    "en": "[Raider] Duration of Ultimate Art extended",
+    "id": 7310000,
+    "normalProb": 0.008487595460677016,
+    "deepProb": 0,
+    "normalOneIn": 118,
+    "deepOneIn": null
+  },
+  "短剣の攻撃力上昇": {
+    "en": "Improved Dagger Attack Power",
+    "id": 7330000,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "直剣の攻撃力上昇": {
+    "en": "Improved Straight Sword Attack Power",
+    "id": 7330100,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大剣の攻撃力上昇": {
+    "en": "Improved Greatsword Attack Power",
+    "id": 7330200,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "特大剣の攻撃力上昇": {
+    "en": "Improved Colossal Sword Attack Power",
+    "id": 7330300,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "曲剣の攻撃力上昇": {
+    "en": "Improved Curved Sword Attack Power",
+    "id": 7330400,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大曲剣の攻撃力上昇": {
+    "en": "Improved Curved Greatsword Attack Power",
+    "id": 7330500,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "刀の攻撃力上昇": {
+    "en": "Improved Katana Attack Power",
+    "id": 7330600,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "両刃剣の攻撃力上昇": {
+    "en": "Improved Twinblade Attack Power",
+    "id": 7330700,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "刺剣の攻撃力上昇": {
+    "en": "Improved Thrusting Sword Attack Power",
+    "id": 7330800,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "重刺剣の攻撃力上昇": {
+    "en": "Improved Heavy Thrusting Sword Attack Power",
+    "id": 7330900,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "斧の攻撃力上昇": {
+    "en": "Improved Axe Attack Power",
+    "id": 7331000,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大斧の攻撃力上昇": {
+    "en": "Improved Greataxe Attack Power",
+    "id": 7331100,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "槌の攻撃力上昇": {
+    "en": "Improved Hammer Attack Power",
+    "id": 7331200,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大槌の攻撃力上昇": {
+    "en": "Improved Great Hammer Attack Power",
+    "id": 7331300,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "フレイルの攻撃力上昇": {
+    "en": "Improved Flail Attack Power",
+    "id": 7331400,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "槍の攻撃力上昇": {
+    "en": "Improved Spear Attack Power",
+    "id": 7331500,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "大槍の攻撃力上昇": {
+    "en": "Improved Great Spear Attack Power",
+    "id": 7331700,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "斧槍の攻撃力上昇": {
+    "en": "Improved Halberd Attack Power",
+    "id": 7331800,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "鎌の攻撃力上昇": {
+    "en": "Improved Reaper Attack Power",
+    "id": 7331900,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "拳の攻撃力上昇": {
+    "en": "Improved Fist Attack Power",
+    "id": 7332000,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "爪の攻撃力上昇": {
+    "en": "Improved Claw Attack Power",
+    "id": 7332100,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "鞭の攻撃力上昇": {
+    "en": "Improved Whip Attack Power",
+    "id": 7332200,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "特大武器の攻撃力上昇": {
+    "en": "Improved Colossal Weapon Attack Power",
+    "id": 7332300,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "弓の攻撃力上昇": {
+    "en": "Improved Bow Attack Power",
+    "id": 7332400,
+    "normalProb": 0.0014628008688337786,
+    "deepProb": 0.001089425702449029,
+    "normalOneIn": 684,
+    "deepOneIn": 918
+  },
+  "短剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Dagger Attacks",
+    "id": 7340000,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "直剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Straight Sword Attacks",
+    "id": 7340100,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Greatsword Attacks",
+    "id": 7340200,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "特大剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Colossal Sword Attacks",
+    "id": 7340300,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "曲剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Curved Sword Attacks",
+    "id": 7340400,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大曲剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Curved Greatsword Attacks",
+    "id": 7340500,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "刀の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Katana Attacks",
+    "id": 7340600,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "両刃剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Twinblade Attacks",
+    "id": 7340700,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "刺剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Thrusting Sword Attacks",
+    "id": 7340800,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "重刺剣の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Heavy Thrusting Sword Attacks",
+    "id": 7340900,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "斧の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Axe Attacks",
+    "id": 7341000,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大斧の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Greataxe Attacks",
+    "id": 7341100,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "槌の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Hammer Attacks",
+    "id": 7341200,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大槌の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Great Hammer Attacks",
+    "id": 7341300,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "フレイルの攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Flail Attacks",
+    "id": 7341400,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "槍の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Spear Attacks",
+    "id": 7341500,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大槍の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Great Spear Attacks",
+    "id": 7341700,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "斧槍の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Halberd Attacks",
+    "id": 7341800,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "鎌の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Reaper Attacks",
+    "id": 7341900,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "拳の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Fist Attacks",
+    "id": 7342000,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "爪の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Claw Attacks",
+    "id": 7342100,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "鞭の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Whip Attacks",
+    "id": 7342200,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "特大武器の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Colossal Weapon Attacks",
+    "id": 7342300,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "弓の攻撃でＨＰ回復": {
+    "en": "HP Restoration upon Bow Attacks",
+    "id": 7342400,
+    "normalProb": 0.0016352489271773863,
+    "deepProb": 0.001526418794239396,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "短剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Dagger Attacks",
+    "id": 7350000,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "直剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Straight Sword Attacks",
+    "id": 7350100,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Greatsword Attacks",
+    "id": 7350200,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "特大剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Colossal Sword Attacks",
+    "id": 7350300,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "曲剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Curved Sword Attacks",
+    "id": 7350400,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大曲剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Curved Greatsword Attacks",
+    "id": 7350500,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "刀の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Katana Attacks",
+    "id": 7350600,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "両刃剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Twinblade Attacks",
+    "id": 7350700,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "刺剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Thrusting Sword Attacks",
+    "id": 7350800,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "重刺剣の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Heavy Thrusting Sword Attacks",
+    "id": 7350900,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "斧の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Axe Attacks",
+    "id": 7351000,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大斧の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Greataxe Attacks",
+    "id": 7351100,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "槌の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Hammer Attacks",
+    "id": 7351200,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大槌の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Great Hammer Attacks",
+    "id": 7351300,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "フレイルの攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Flail Attacks",
+    "id": 7351400,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "槍の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Spear Attacks",
+    "id": 7351500,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "大槍の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Great Spear Attacks",
+    "id": 7351700,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "斧槍の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Halberd Attacks",
+    "id": 7351800,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "鎌の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Reaper Attacks",
+    "id": 7351900,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "拳の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Fist Attacks",
+    "id": 7352000,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "爪の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Claw Attacks",
+    "id": 7352100,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "鞭の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Whip Attacks",
+    "id": 7352200,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "特大武器の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Colossal Weapon Attacks",
+    "id": 7352300,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "弓の攻撃でＦＰ回復": {
+    "en": "FP Restoration upon Bow Attacks",
+    "id": 7352400,
+    "normalProb": 0.001635248927177385,
+    "deepProb": 0.0015264187942393966,
+    "normalOneIn": 612,
+    "deepOneIn": 655
+  },
+  "出撃時の武器の魔術を「魔術の輝剣」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's sorcery to Magic Glintblade at start of expedition",
+    "id": 7360600,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の魔術を「カーリアの大剣」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's sorcery to Carian Greatsword at start of expedition",
+    "id": 7360900,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の魔術を「夜のつぶて」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's sorcery to Night Shard at start of expedition",
+    "id": 7361200,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の魔術を「溶岩弾」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's sorcery to Magma Shot at start of expedition",
+    "id": 7361300,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の魔術を「罰の茨」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's sorcery to Briars of Punishment at start of expedition",
+    "id": 7362100,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の祈祷を「黄金の怒り」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's incantation to Wrath of Gold at start of expedition",
+    "id": 7370300,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の祈祷を「雷の槍」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's incantation to Lightning Spear at start of expedition",
+    "id": 7370400,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の祈祷を「火よ！」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's incantation to O, Flame! at start of expedition",
+    "id": 7370600,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の祈祷を「獣爪」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's incantation to Beast Claw at start of expedition",
+    "id": 7370900,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  },
+  "出撃時の武器の祈祷を「竜炎」にする ※適用可能な武器種のみ": {
+    "en": "Changes compatible armament's incantation to Dragonfire at start of expedition",
+    "id": 7371500,
+    "normalProb": 0.0035057413638415994,
+    "deepProb": 0,
+    "normalOneIn": 285,
+    "deepOneIn": null
+  }
+}

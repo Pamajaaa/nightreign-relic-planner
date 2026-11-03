@@ -1,0 +1,3031 @@
+{
+  "version": 1,
+  "macros": {
+    "リセット": [
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 400
+      },
+      {
+        "state": 0,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 112,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 112,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 420
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 37,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 37,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 6000
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 50
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 100
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 4300
+      }
+    ],
+    "浅きまで": [
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 0,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 1,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 1500
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 40
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      }
+    ],
+    "右1": [
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 39,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 39,
+        "kind": "key"
+      }
+    ],
+    "ガチャ": [
+      {
+        "state": 0,
+        "count": 30,
+        "kind": "loop"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 50
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 200
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 200
+      },
+      {
+        "state": 1,
+        "count": 30,
+        "kind": "loop"
+      }
+    ],
+    "遺物フィルターに移動": [
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 500
+      },
+      {
+        "state": 0,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 500
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 1800
+      },
+      {
+        "state": 0,
+        "code": 52,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 52,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      }
+    ],
+    "フィルター選択": [
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 81,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 250
+      },
+      {
+        "state": 0,
+        "code": 68,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 68,
+        "kind": "key"
+      }
+    ],
+    "王の証まで": [
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 1500
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      }
+    ],
+    "遺物フィルターに移動 2": [
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 27,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 700
+      },
+      {
+        "state": 2,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 38,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 500
+      },
+      {
+        "state": 0,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 77,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 500
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 2,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 3,
+        "code": 40,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 1800
+      },
+      {
+        "state": 0,
+        "code": 52,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 52,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 0,
+        "code": 70,
+        "kind": "key"
+      },
+      {
+        "kind": "wait",
+        "ms": 30
+      },
+      {
+        "state": 1,
+        "code": 70,
+        "kind": "key"
+      }
+    ]
+  }
+}
